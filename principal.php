@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>proEColiDB</title>
-<link rel="stylesheet" href="style_logo.css">
+<link rel="stylesheet" href="./css/style_logo.css">
 <link rel="icon" href="./imagenes/proEColiDB_logo.png" type="image/icon type">
 </head>
 <body>
