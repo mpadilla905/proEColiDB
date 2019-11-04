@@ -1,0 +1,15 @@
+.field:invalid{ !important; }
+
+.button {
+  background-color: #9eefe5; /* azul 3 */
+  border: none;
+  color: white;
+  padding: 7px 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  border-radius: 8px;
+}
+
