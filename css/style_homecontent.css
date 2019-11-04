@@ -1,0 +1,22 @@
+#content {
+  overflow: hidden;
+  background-color: #162521;
+  width:90%;
+  margin:auto;
+  height:50%;
+}
+
+#home_img {
+  height:210px;
+  width:315px;
+  border: 50px solid #162521;
+  float:left;
+}
+
+.text{
+  position:relative;
+  float:right;
+  width:50%;
+  color:white;
+  border:50px solid #162521;
+}
