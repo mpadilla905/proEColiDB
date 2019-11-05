@@ -53,7 +53,6 @@
 </script>
 </head>
 <body>
-
 <form id="form" name="form" method="get" onsubmit="return validate(5)" action="principal.php">
   <div id="normal"> Fill the registry to have access to the dump:</div><br>
 

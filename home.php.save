@@ -1,5 +1,6 @@
 <html>
  <head>
+  <title>proEColiDB</title>
   <link rel="stylesheet" href="./css/style_logo.css">
   <link rel="stylesheet" href="./css/style_menuu.css">
   <link rel="stylesheet" href="./css/style_search.css">
@@ -21,7 +22,7 @@
           <div id="download_menu">
 	  <button id="down_bt">Download Menu</button>
           <div id="sub_download">
-            <a href"registro.php"=>Dump</button>
+            <button class="open-button">Dump</button>
             <a href="#">Data Base</a>
 	  </div>
         </div>
