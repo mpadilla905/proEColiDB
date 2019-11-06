@@ -1,17 +1,15 @@
-<! pagina de registro >
+<! pagina de registro 2, con validacion al final>
 
 <html>
   <head>
     <title> Registry </title>
     <link rel="stylesheet" type="text/css" href="css/style_registry.css" />
-    <link rel="stylesheet" href="./css/style_text.css">
     <script language = "JavaScript" >
 
       function validate(num) {
         var flag = 1, i;
-        num = ( num == 5 )? [0,1,2,3,4] : [num]; // vector of ids and 4 allows validation of all fields on submit event
+        num = ( num == 5 )? [0,1,2,3,4] : [num];
 
-        // Mail Validation
         if( num[num.length-1] > 3){
           var campo = document.getElementById("mail").value;
           if( !campo.match(/\w{2,}@\w{2,}(\.\w{2,})+/) ){
@@ -19,24 +17,23 @@
             flag = 0;
           }
         }
-        // Validation of Name(0), Lastname(1), Institution(2) and Reason(3)
         if ( num[0] < 4){
           for (i = 0; i <= num.length-1; i++){
             if(num[i]==4){ break; }
             var campo = document.getElementById(num[i]).value;
             if( campo.match(/[0-9]/) || !campo.match(/[a-zA-Z]/) ){
-              spanID = 'pelo'+ num[i]; // span id for each field
+              spanID = 'pelo'+ num[i];
               flag = 0;
-              document.getElementById(spanID).style.visibility = "visible"; 
+              document.getElementById(spanID).style.visibility = "visible";
             }
           }
         }
 
-        // Let submit only when all fields are correctly filled
-        (!flag)? return false: ;
+        if(!flag){
+          return false;
+        }
       }
-      
-      // erase span message when field is clicked
+
       function clean(spanID) {
           document.getElementById(spanID).style.visibility = "hidden";
       }
