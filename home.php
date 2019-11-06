@@ -10,7 +10,9 @@
 </head>
 <body>
 <div id="header">
+<a href="home.php">
 <img id="logo" src="./imagenes/proEColiDB_logo.png">
+</a>
 <br></br>
 <div id="menubar">
     <div id="menu">
@@ -21,7 +23,7 @@
           <div id="download_menu">
 	  <button id="down_bt">Download Menu</button>
           <div id="sub_download">
-            <a href"registro.php"=>Dump</button>
+            <a href="preregistry.php">Dump</a>
             <a href="#">Data Base</a>
 	  </div>
         </div>
