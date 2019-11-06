@@ -63,6 +63,8 @@
        <span id ="pelo3" style="visibility:hidden; color:#FF0000;" > Please enter letters only </span></br>
       <br><br>
 
+      Note: on submit dump will download automatically.
+      <br></br>
       <input  class= "button" type="submit" name="submit" value="submit" />
       </br></br>
     </form>
