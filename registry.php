@@ -12,7 +12,7 @@
 
         if( num[num.length-1] > 3){
           var campo = document.getElementById("mail").value;
-          if( !campo.match(/\w{2,}@\w{2,}(\.\w{2,})+/) ){
+          if( !campo.match(/^\w{2,}@\w{2,}(\.\w{2,}){1,2}$/) ){
             document.getElementById('mnr').style.visibility = "visible";
             flag = 0;
           }
