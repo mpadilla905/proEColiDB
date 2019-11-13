@@ -41,30 +41,28 @@
     </script>
   </head>
   <body>
-    <form id="form" name="form" method="get" onsubmit="return validate(5)" action="principal.php">
+    <form id="form" name="form" method="POST" onsubmit="return validate(5)" action="registry_result.php">
       <div id="normal"> Fill the registry to have access to the dump:</div><br>
 
       <br>User:
-       <input class="field" id="user" type="text" required="required" size="25" /></br>
+       <input class="field" id="user" name="user" type="text" required="required" size="25" /></br>
       <br>Mail:
-       <input class="field" id="mail" onchange="validate(4)" onclick="clean('mnr');" type="text" required="required" size="25" />
+       <input class="field" id="mail" name="mail" onchange="validate(4)" onclick="clean('mnr');" type="text" required="required" size="25" />
        <span id ="mnr" style="visibility:hidden; color:#FF0000;" > Mail Not Recognized </span></br>
       <br>Name:
-       <input class="field" id="0" onchange="validate(0)" onclick="clean('pelo0');" type="text" required="required" size="25" />
+       <input class="field" id="0" name="name" onchange="validate(0)" onclick="clean('pelo0');" type="text" required="required" size="25" />
        <span id ="pelo0" style="visibility:hidden; color:#FF0000;" > Please enter letters only </span></br>
       <br>Lastname:
-       <input class="field" id="1" onchange="validate(1)" onclick="clean('pelo1');" type="text" required="required" size="25" />
+       <input class="field" id="1" name="lastname" onchange="validate(1)" onclick="clean('pelo1');" type="text" required="required" size="25" />
        <span id ="pelo1" style="visibility:hidden; color:#FF0000;" > Please enter letters only </span></br>
       <br>Institution of procedence:
-       <input class="field" id="2" onchange="validate(2)" onclick="clean('pelo2');" type="text" required="required" size="25" />
+       <input class="field" id="2" name="institute" onchange="validate(2)" onclick="clean('pelo2');" type="text" required="required" size="25" />
        <span id ="pelo2" style="visibility:hidden; color:#FF0000;" > Please enter letters only </span></br>
       <br>Reason for dumping proEColiDB:
-       <input class="field" id="3" onchange="validate(3)" onclick="clean('pelo3');" type="text" required="required" size="25" />
+       <input class="field" id="3" name="reason" onchange="validate(3)" onclick="clean('pelo3');" type="text" required="required" size="25" />
        <span id ="pelo3" style="visibility:hidden; color:#FF0000;" > Please enter letters only </span></br>
-      <br><br>
-
-      Note: on submit dump will download automatically.
       <br></br>
+
       <input  class= "button" type="submit" name="submit" value="submit" />
       </br></br>
     </form>

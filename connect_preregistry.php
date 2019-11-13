@@ -1,12 +1,4 @@
 <?php
-// Carga la configuración 
-//$config = parse_ini_file('config.ini'); 
-
-// Conexión con los datos del 'config.ini' 
-//$connection = mysqli_connect('localhost:8889',$config['username'],$config['password'],$config['dbname']); 
-//$connection = mysqli_connect('localhost:8889',$config['root'],$config['root'],$config['mmv']); 
-
-
 
 $usuario = 'sophia';
 $contrasena = 'genomaliigh';
@@ -32,7 +24,4 @@ if($conexion === false) {
 
 	//echo "\n filas: ".$filas."\n";
 }
-
-
-
 ?>
