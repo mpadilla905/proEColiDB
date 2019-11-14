@@ -5,11 +5,12 @@
   <link rel="stylesheet" href="./css/style_text.css">
   <link rel="stylesheet" href="./css/style_search.css">
   <link rel="stylesheet" href="./css/style_preregistry.css">
+  <link rel="stylesheet" href="./css/style_logo.css">
+
 	<script>
 	$(document).ready(function() {
   		$("#resultadoBusqueda");
 	});
-
 	function buscar() {
  		 var textoBusqueda = $("input#busqueda").val();
    		 if (textoBusqueda != "") {
@@ -28,7 +29,13 @@
 </head>
 
 <body>
-<br><br><br>
+  <div id="header">
+    <a href="home.php">
+      <img id="logo" src="./imagenes/proEColiDB_logo.png">
+    </a>
+</div>
+    <br></br>
+
 <div class="reg_box">
 <p class="title">Dump Download</p>
 <p>If you have already registered, please enter your email</p>

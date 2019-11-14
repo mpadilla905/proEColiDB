@@ -3,6 +3,8 @@
 <html>
   <head>
     <title> Registry </title>
+    <meta charset="utf-8">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style_registry.css" />
     <script language = "JavaScript" >
 
@@ -37,17 +39,40 @@
       function clean(spanID) {
           document.getElementById(spanID).style.visibility = "hidden";
       }
+	//for checking email
+	        $(document).ready(function() {
+                $("#resultadoBusqueda");
+        });
+        function buscar() {
+                 var textoBusqueda = $("input#mail").val();
+                 if (textoBusqueda != "") {
+                      $.post("search_preregistry.php", {valorBusqueda: textoBusqueda}, function(mensaje) {
+                      //$("#resultadoBusqueda").html(mensaje);
+                      $("#resultadoBusqueda").html();
+                        if (mensaje == ""){
+                                document.getElementById("message").style.visibility = "visible";
+                      }
+                        else {
+			       document.getElementById("registry_btn").disabled = false;
+				document.getElementById("message").style.visibility = "hidden";
+
+                      };
+                 });
+                 } else {
+        $("#resultadoBusqueda"); //html('<p>JQUERY VACIO</p>');
+        };
+        };
 
     </script>
   </head>
   <body>
-    <form id="form" name="form" method="POST" onsubmit="return validate(5)" action="registry_result.php">
+    <form id="form" name="form" method="POST" onsubmit="return validate(5)" action="registry_result.php" accept-charset="utf-8">
       <div id="normal"> Fill the registry to have access to the dump:</div><br>
 
       <br>User:
        <input class="field" id="user" name="user" type="text" required="required" size="25" /></br>
       <br>Mail:
-       <input class="field" id="mail" name="mail" onchange="validate(4)" onclick="clean('mnr');" type="text" required="required" size="25" />
+       <input class="field" id="mail" name="mail" onchange="validate(4); buscar();" onclick="clean('mnr');" type="text" required="required" size="25" />
        <span id ="mnr" style="visibility:hidden; color:#FF0000;" > Mail Not Recognized </span></br>
       <br>Name:
        <input class="field" id="0" name="name" onchange="validate(0)" onclick="clean('pelo0');" type="text" required="required" size="25" />
@@ -62,8 +87,9 @@
        <input class="field" id="3" name="reason" onchange="validate(3)" onclick="clean('pelo3');" type="text" required="required" size="25" />
        <span id ="pelo3" style="visibility:hidden; color:#FF0000;" > Please enter letters only </span></br>
       <br></br>
-
-      <input  class= "button" type="submit" name="submit" value="submit" />
+      <div id="resultadoBusqueda"></div>
+      <br><span id ="message" style="visibility:hidden; color:#FF0000;" > Mail Already Registered </span></br>
+      <input id="registry_btn" class= "button" type="submit" name="submit" value="submit" disabled/>
       </br></br>
     </form>
   </body>
