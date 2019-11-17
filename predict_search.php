@@ -4,7 +4,7 @@ require('connectdb.php');
 
 // Recepcion de variables
 $consultaSearch = $_POST['valorBusqueda'];
-$option = $_POST['option'];
+//$option = $_POST['option'];
 
 // Filtro anti-XSS
 $caracteres_malos = array("<", ">", "\"", "'", "/", "<", ">", "'", "/");
@@ -25,22 +25,46 @@ if (isset($consultaSearch)) {
     $consulta = mysqli_query($conexion, $selectGene);
 
     // Obtiene la cantidad de filas que hay en la consulta
-    $filas = mysqli_num_rows($consulta);
+    $filasG = mysqli_num_rows($consulta);
+
 
     // Empezar pagina de resultados para el gen solicitado
     $resultado .= "<table>";
     $resultado .= "<th>  Gene matches with '".$consultaSearch."': </th>";
     // Si no existe el gen, que lo diga
-    if($filas === 0) {
+    if($filasG === 0) {
           $result .= "<tr><td> No results found for ".$consultaSearch." </td></tr>";
     } else {
         // Obtener campos
         while( $res_campos = mysqli_fetch_array($consulta) ){
             $val = $res_campos['gene_name'];
-            $resultado .= "<tr><td><p onclick=putOnInput(\"".$val."\")>".$val."</p></tr></td>";
+            $ref = "http://localhost/proEColiDB/results.php?search=".$val."";
+            //$resultado .= "<tr><td><p onclick=putOnInput(\"".$val."\")>".$val."</p></tr></td>";
+            $resultado .= "<tr><td><a href=".$ref.">  ".$val."</a></tr></td>";
         }
-          $resultado .= "</table>";
+          //$resultado .= "</table>";
     }
+
+    // $noSyn = array("ECK125121983","ECK125121987","ECK125121989","ECK125121991","ECK125121993","ECK125121995","ECK125121997","ECK125121999","ECK125122001","ECK125122003","ECK125122004","ECK125122006","ECK125122009","ECK125272700","ECK125272702","ECK125272704","ECK125272706","ECK125272708","ECK125272710","ECK125272712","ECK125272714");
+
+    // Checar tambien por sinonimos
+    $consultaSyn = mysqli_query($conexion, "SELECT o.object_synonym_name, g.gene_name FROM GENE g, OBJECT_SYNONYM o WHERE g.gene_id = o.object_id AND o.object_synonym_name LIKE '".$consultaSearch."%'");
+    $filasS = mysqli_num_rows($consultaSyn);
+    // Si no existe el gen, que lo diga
+    if($filasG === 0) {
+          $result .= "</table>";
+    } else {
+        // Obtener campos
+        $resultado .= "<th> Synonyms </th>";
+        while( $res_campos = mysqli_fetch_array($consultaSyn) ){
+            //$val = $res_campos['gene_name'];
+            $ref = "http://localhost/proEColiDB/results.php?search=".$res_campos['gene_name']."";
+            $resultado .= "<tr><td><a href=".$ref." >".$res_campos['object_synonym_name']."</a></p></tr></td>";
+            //$resultado .= "<tr><td><p onclick=putOnInput(\"".$val."\")>".$res_campos['object_synonym_name']."</p></tr></td>";
+        }
+        $resultado .= "</table>";
+    }
+
   /*} // if GENE
   elseif ($option == 'TRANSCRIPTION UNIT') {
     $selectGene = "SELECT transcription_unit_name FROM TRANSCRIPTION_UNIT WHERE transcription_unit_name LIKE '" . $consultaSearch . "%'";
