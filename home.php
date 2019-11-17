@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./css/style_search.css">
   <link rel="stylesheet" href="./css/style_text.css">
   <link rel="stylesheet" href="./css/style_homecontent.css">
-  <link rel="icon" href="./imagenes/pEClogo.png" type="image/icon type">
+  <link rel="icon" href="./imagenes/proEColi_slogo_trans.png" type="image/icon type">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/style_preresult3.css">
 
@@ -43,7 +43,7 @@
 <body>
   <div id="header">
     <a href="home.php">
-      <img id="logo" src="./imagenes/proEColiDB_logo.png">
+      <img id="logo" src="./imagenes/proEColi_logo_trans.png">
     </a>
     <br></br>
     <div id="menubar">
