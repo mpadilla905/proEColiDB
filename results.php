@@ -1,4 +1,4 @@
-<! pagina de resultados de busqueda>
+<! pagina de resultados de busqueda, liked to home.php>
 <html>
   <head>
     <title> Results! </title>
@@ -30,7 +30,7 @@
               </div>
            </div>
            </div>
-          <form class="search_bar" method="get" action="preresult.php">
+          <form class="search_bar" method="get" action="preresults.php">
             <input type="text" placeholder="Search..." name="search" id="search" autocomplete="off"/>
             <button type="submit"><i class="fa fa-search"></i></button>
           </form>
