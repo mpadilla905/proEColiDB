@@ -1,4 +1,4 @@
-<! pagina de resultados de busqueda, liked to home.php>
+<! pagina de resultados de busqueda>
 <html>
   <head>
     <title> Results! </title>
@@ -65,6 +65,7 @@
         ?>
             <tr><td> No results found for <?= $inputSearch ?> </td></tr>
       <?php
+            $gene = 0;
         } else {
             // Obtener campos
             $res_campos = mysqli_fetch_array($consulta);
@@ -122,74 +123,8 @@
       <?php
         // Tabla Producto: familia reguladora, motivos
         // Consulta a DB de proteina
-        $select = "SELECT p.product_id, p.product_name, p.product_sequence, p.location, p.molecular_weigth, p.isoelectric_point FROM PRODUCT p, GENE_PRODUCT_LINK gpl WHERE p.product_id = gpl.product_id AND gpl.gene_id = '".$gene_id."' ";
-        $consulta = mysqli_query($conexion, $select);
-
-        // Recibe numero de filas de consulta
-        $filas = mysqli_num_rows($consulta);
-
-        // Si no existe el gen, que lo diga
-        if($filas === 0) {
-          ?>
-              <tr><td> No results found in Protein </td></tr>
-        <?php
-          } else {
-              // Obtener campos por producto
-              while($res_campos = mysqli_fetch_array($consulta)){
-
-                ?>
-                    <tr>
-                      <td><b>Id:</b></td>
-                      <td> <?= $res_campos['product_id']; ?> </td>
-                    </tr>
-                    <tr>
-                      <td><b>Name:</b></td>
-                      <td> <?= $res_campos['product_name']; ?> </td>
-                    </tr>
-                    <tr>
-                      <td><b>Sequence:</b></td>
-                      <td> </td>
-                    </tr>
-                    <tr>
-                      <td><b> Cellular location: </b></td>
-                      <td> <?= $res_campos['location']; ?> </td>
-                    </tr>
-                    <tr>
-                      <td><b>Molecular Weight:</b></td>
-                      <td> <?= $res_campos['molecular_weigth']; ?> </td>
-                    </tr>
-                    <tr>
-                      <td><b>Isoelectric Point: </b></td>
-                      <td> <?= $res_campos['isoelectric_point']; ?> </td>
-                    </tr>
-                 <?php
-                     $syn = "";
-                     // Obtener sinonimos
-                     $consultaSyn = mysqli_query($conexion, "SELECT object_synonym_name FROM OBJECT_SYNONYM WHERE object_id = '".$res_campos['product_id']."' ");
-                     if( mysqli_num_rows($consultaSyn) === 0 ){
-                       $syn .= "no synonyms found :(";
-                     } else {
-                       while( $res_campos_syn = mysqli_fetch_array($consultaSyn) ){
-                         $syn .= $res_campos_syn['object_synonym_name'].",";
-                       }
-                     }
-                  ?>
-                  <tr>
-                    <td><b>Synonyms:</b></td>
-                    <td>  <?= $syn; ?> </td>
-                  </tr>
-                  <tr><td> </td><td> </td></tr>
-               <?php
-             } // while
-          } // else
-         ?>
-           </table>
-           <br><br>
-           <table>
-           <th>  Operon </th><th></th>
-          <?php
-          // Consulta a DB de TU
-          $select = "SELECT tu.transcription_unit_name, o.operon_name, p.promoter_name FROM TU_GENE_LINK tgl, TRANSCRIPTION_UNIT tu, OPERON o, PROMOTER p WHERE tgl.gene_id = '".$gene_id."' AND tgl.transcription_unit_id = tu.transcription_unit_id AND tu.operon_id = o.operon_id AND tu.promoter_id = p.promoter_id";
+        if ($gene){
+          $select = "SELECT p.product_id, p.product_name, p.product_sequence, p.location, p.molecular_weigth, p.isoelectric_point FROM PRODUCT p, GENE_PRODUCT_LINK gpl WHERE p.product_id = gpl.product_id AND gpl.gene_id = '".$gene_id."' ";
           $consulta = mysqli_query($conexion, $select);
 
           // Recibe numero de filas de consulta
@@ -198,7 +133,7 @@
           // Si no existe el gen, que lo diga
           if($filas === 0) {
             ?>
-                <tr><td> No results found in Operon </td></tr>
+                <tr><td> No results found in Protein </td></tr>
           <?php
             } else {
                 // Obtener campos por producto
@@ -206,20 +141,98 @@
 
                   ?>
                       <tr>
-                        <td><b>Transcription Unit name:</b></td>
-                        <td> <?= $res_campos['transcription_unit_name']; ?> </td>
+                        <td><b>Id:</b></td>
+                        <td> <?= $res_campos['product_id']; ?> </td>
                       </tr>
                       <tr>
-                        <td><b>Operon Name:</b></td>
-                        <td> <?= $res_campos['operon_name']; ?> </td>
+                        <td><b>Name:</b></td>
+                        <td> <?= $res_campos['product_name']; ?> </td>
                       </tr>
                       <tr>
-                        <td><b>Promoter Name: </b></td>
-                        <td> <?= $res_campos['promoter_name']; ?> </td>
+                        <td><b>Sequence:</b></td>
+                        <td> </td>
                       </tr>
+                      <tr>
+                        <td><b> Cellular location: </b></td>
+                        <td> <?= $res_campos['location']; ?> </td>
+                      </tr>
+                      <tr>
+                        <td><b>Molecular Weight:</b></td>
+                        <td> <?= $res_campos['molecular_weigth']; ?> </td>
+                      </tr>
+                      <tr>
+                        <td><b>Isoelectric Point: </b></td>
+                        <td> <?= $res_campos['isoelectric_point']; ?> </td>
+                      </tr>
+                   <?php
+                       $syn = "";
+                       // Obtener sinonimos
+                       $consultaSyn = mysqli_query($conexion, "SELECT object_synonym_name FROM OBJECT_SYNONYM WHERE object_id = '".$res_campos['product_id']."' ");
+                       if( mysqli_num_rows($consultaSyn) === 0 ){
+                         $syn .= "no synonyms found :(";
+                       } else {
+                         while( $res_campos_syn = mysqli_fetch_array($consultaSyn) ){
+                           $syn .= $res_campos_syn['object_synonym_name'].",";
+                         }
+                       }
+                    ?>
+                    <tr>
+                      <td><b>Synonyms:</b></td>
+                      <td>  <?= $syn; ?> </td>
+                    </tr>
+                    <tr><td> </td><td> </td></tr>
                  <?php
                } // while
             } // else
+        } else {
+          ?>
+              <tr><td> No results found in Protein </td></tr>
+        <?php
+        }
+         ?>
+           </table>
+           <br><br>
+           <table>
+           <th>  Operon </th><th></th>
+          <?php
+          if ($gene){
+            // Consulta a DB de TU
+            $select = "SELECT tu.transcription_unit_name, o.operon_name, p.promoter_name FROM TU_GENE_LINK tgl, TRANSCRIPTION_UNIT tu, OPERON o, PROMOTER p WHERE tgl.gene_id = '".$gene_id."' AND tgl.transcription_unit_id = tu.transcription_unit_id AND tu.operon_id = o.operon_id AND tu.promoter_id = p.promoter_id";
+            $consulta = mysqli_query($conexion, $select);
+
+            // Recibe numero de filas de consulta
+            $filas = mysqli_num_rows($consulta);
+
+            // Si no existe el gen, que lo diga
+            if($filas === 0) {
+              ?>
+                  <tr><td> No results found in Operon </td></tr>
+            <?php
+              } else {
+                  // Obtener campos por producto
+                  while($res_campos = mysqli_fetch_array($consulta)){
+
+                    ?>
+                        <tr>
+                          <td><b>Transcription Unit name:</b></td>
+                          <td> <?= $res_campos['transcription_unit_name']; ?> </td>
+                        </tr>
+                        <tr>
+                          <td><b>Operon Name:</b></td>
+                          <td> <?= $res_campos['operon_name']; ?> </td>
+                        </tr>
+                        <tr>
+                          <td><b>Promoter Name: </b></td>
+                          <td> <?= $res_campos['promoter_name']; ?> </td>
+                        </tr>
+                   <?php
+                 } // while
+              } // else
+          } else {
+            ?>
+                <tr><td> No results found in Operon </td></tr>
+          <?php
+          }
            ?>
          </table>
 
