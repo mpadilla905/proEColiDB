@@ -1,0 +1,17 @@
+.field{
+  margin:auto;
+  min-width:400px;
+  float: right;
+}
+
+.field input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  float: left;
+  width: 80%;
+  height: 100%;
+  background: #F3FCF0;
+  border: 5px solid #162521;
+
+}
+

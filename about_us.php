@@ -9,7 +9,7 @@
 </head>
 <div id="header">
 <a href="home.php">
-<img id="logo" src="./imagenes/proEColiDB_logo.png">
+<img id="logo" src="./imagenes/proEColi_logo_trans.png">
 </a>
 <br></br>
 <div id="menubar">

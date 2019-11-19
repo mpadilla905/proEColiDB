@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="./css/style_text.css">
   <link rel="stylesheet" href="./css/style_search.css">
   <link rel="stylesheet" href="./css/style_preregistry.css">
-  <link rel="stylesheet" href="./css/style_logo.css">
+  <link rel="stylesheet" href="./css/style_button.css">
 
 	<script>
 	$(document).ready(function() {
@@ -17,7 +17,7 @@
         	      $.post("search_preregistry.php", {valorBusqueda: textoBusqueda}, function(mensaje) {
                       $("#resultadoBusqueda").html(mensaje);
                       if (mensaje == ""){
-                              document.getElementById("prereg_btn").disabled = false;
+                              document.getElementById("link").style.visibility = "visible";
                       };
                  });
                  } else {
@@ -28,23 +28,22 @@
 
 </head>
 
-<body>
-  <div id="header">
-    <a href="home.php">
-      <img id="logo" src="./imagenes/proEColiDB_logo.png">
-    </a>
-</div>
-    <br></br>
+<body style="background-color:#616283;">
+<br><br> <br></br>
 
 <div class="reg_box">
 <p class="title">Dump Download</p>
 <p>If you have already registered, please enter your email</p>
 <form method="POST" accept-charset="utf-8">
-  <input name="busqueda" id="busqueda" type="text" placeholder="email" value="" maxlength="30" autocomplete="off" onchange="buscar();"/><br><br>
-  <div id="resultadoBusqueda"></div>
-  <input id="prereg_btn" type="submit" value="Download Dump" disabled onclick="window.open('RegistryForm.sql')">
-  <?php //<button id="prereg_btn" type="submit" disabled onclick="window.open('RegistryForm.sql')"> Download Dump </button> ?>
+  <input name="busqueda" id="busqueda" type="text" placeholder="email" value="" maxlength="30" autocomplete="off"/><br><br>
 </form>
+ <button onClick="buscar();">search</button>
+  <div id="resultadoBusqueda"></div>
+
+  <a href='RegistryForm.sql' download style="visibility:hidden;" id="link">
+  <button type="button" class="regbtn">Download Dump</button>
+  </a>
+<br></br>
 <br><br>
 <div id="reg_go">
 Not registered?<a href="registry.php">Click here</a>

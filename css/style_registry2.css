@@ -4,7 +4,7 @@
   overflow: hidden;
   width:60%;
   margin:auto;
-  height:80%;
+  height:90%;
   background-color: #E6E6FA;
 
 }
@@ -12,9 +12,11 @@
 .field{  
   display:inline-block;
   float: left;
-}
+font-family: "Noto Sans", sans-serif;
 
-.tag{
+ }
+
+label{
  display: inline-block;
      float: left;
     clear: left;

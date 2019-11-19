@@ -5,7 +5,10 @@
     <title> Registry </title>
     <meta charset="utf-8">
     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style_registry.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style_registry2.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style_text.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style_fields.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style_button.css" />
     <script language = "JavaScript" >
 
       function validate(num) {
@@ -64,33 +67,38 @@
         };
 
     </script>
-  </head>
-  <body>
-    <form id="form" name="form" method="POST" onsubmit="return validate(5)" action="registry_result.php" accept-charset="utf-8">
-      <div id="normal"> Fill the registry to have access to the dump:</div><br>
+</head>
+<body style="background-color:#616283;">
+<br><br></br>
 
-      <br>User:
+<div class="reg_box">
+      <br></br>
+      <form id="form" name="form" method="POST" onsubmit="return validate(5)" action="registry_result.php" accept-charset="utf-8">
+      <div id="normal" style="text-align: center;">Fill the registry to access the dump:</div><br></br>
+
+      <br><label for="user">User:</label>
        <input class="field" id="user" name="user" type="text" required="required" size="25" /></br>
-      <br>Mail:
+      <br><label for="mail">Mail:</label>
        <input class="field" id="mail" name="mail" onchange="validate(4); buscar();" onclick="clean('mnr');" type="text" required="required" size="25" />
        <span id ="mnr" style="visibility:hidden; color:#FF0000;" > Mail Not Recognized </span></br>
-      <br>Name:
+      <br><label for="0">Name:</label>
        <input class="field" id="0" name="name" onchange="validate(0)" onclick="clean('pelo0');" type="text" required="required" size="25" />
        <span id ="pelo0" style="visibility:hidden; color:#FF0000;" > Please enter letters only </span></br>
-      <br>Lastname:
+      <br><label for="1">Lastname:</label>
        <input class="field" id="1" name="lastname" onchange="validate(1)" onclick="clean('pelo1');" type="text" required="required" size="25" />
        <span id ="pelo1" style="visibility:hidden; color:#FF0000;" > Please enter letters only </span></br>
-      <br>Institution of procedence:
+      <br><label for="2">Institution of procedence:</label>
        <input class="field" id="2" name="institute" onchange="validate(2)" onclick="clean('pelo2');" type="text" required="required" size="25" />
        <span id ="pelo2" style="visibility:hidden; color:#FF0000;" > Please enter letters only </span></br>
-      <br>Reason for dumping proEColiDB:
+      <br><label for="3">Reason for dumping proEColiDB:</label>
        <input class="field" id="3" name="reason" onchange="validate(3)" onclick="clean('pelo3');" type="text" required="required" size="25" />
        <span id ="pelo3" style="visibility:hidden; color:#FF0000;" > Please enter letters only </span></br>
       <br></br>
       <div id="resultadoBusqueda"></div>
       <br><span id ="message" style="visibility:hidden; color:#FF0000;" > Mail Already Registered </span></br>
-      <input id="registry_btn" class= "button" type="submit" name="submit" value="submit" disabled/>
-      </br></br>
+      <input id="registry_btn" class="regbtn" type="submit" name="submit" value="Register" disabled/> 
+     </br></br>
     </form>
-  </body>
+</div>
+</body>
 </html>
