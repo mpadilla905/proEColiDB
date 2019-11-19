@@ -33,7 +33,7 @@ if (isset($consultaSearch)) {
     $resultado .= "<th>  Gene matches with '".$consultaSearch."': </th>";
     // Si no existe el gen, que lo diga
     if($filasG === 0) {
-          $result .= "<tr><td> No results found for ".$consultaSearch." </td></tr>";
+          $resultado .= "<tr><td> No results found for ".$consultaSearch." </td></tr>";
     } else {
         // Obtener campos
         while( $res_campos = mysqli_fetch_array($consulta) ){
@@ -52,7 +52,7 @@ if (isset($consultaSearch)) {
     $filasS = mysqli_num_rows($consultaSyn);
     // Si no existe el gen, que lo diga
     if($filasG === 0) {
-          $result .= "</table>";
+          $resultado .= "</table>";
     } else {
         // Obtener campos
         $resultado .= "<th> Synonyms </th>";
