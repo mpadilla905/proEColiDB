@@ -1,0 +1,36 @@
+form.search_bar input[type=text] {
+  padding: 10px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 17px;
+  border: 2px solid #162521;
+  background: #f1f1f1;
+  width: 70%;
+  height: 45px;
+}
+
+form.search_bar {
+ position: absolute;
+ left:460px;
+}
+
+.search_button {
+  position: relative;
+  left:140px;
+  width: 20%;
+  background: #5F9EA0;
+  color: white;
+  font-size: 17px;
+  border: 2px solid #162521;
+  cursor: pointer;
+  height: 45px;
+}
+
+.search_button:hover {
+  background: #5F9EA0;
+}
+
+form.search_bar::after {
+  content: "";
+  clear: both;
+  display: table;
+}

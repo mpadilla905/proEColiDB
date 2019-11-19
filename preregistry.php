@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="./css/style_search.css">
   <link rel="stylesheet" href="./css/style_preregistry.css">
   <link rel="stylesheet" href="./css/style_button.css">
+  <link rel="stylesheet" href="./css/style_searchpre2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<script>
 	$(document).ready(function() {
@@ -34,12 +36,13 @@
 <div class="reg_box">
 <p class="title">Dump Download</p>
 <p>If you have already registered, please enter your email</p>
-<form method="POST" accept-charset="utf-8">
+<form class="search_bar" method="POST" accept-charset="utf-8">
   <input name="busqueda" id="busqueda" type="text" placeholder="email" value="" maxlength="30" autocomplete="off"/><br><br>
 </form>
- <button onClick="buscar();">search</button>
-  <div id="resultadoBusqueda"></div>
+<button onClick="buscar();" class="search_button"><i class="fa fa-search"></i></button>
 
+  <div id="resultadoBusqueda"></div>
+  <br></br>
   <a href='RegistryForm.sql' download style="visibility:hidden;" id="link">
   <button type="button" class="regbtn">Download Dump</button>
   </a>
