@@ -41,7 +41,7 @@
 <br>
 <div>
   <div class="content">
-  <img id="uspic" src="./imagenes/us.jpeg">
+  <img id="uspic" src="./imagenes/uspic.jpeg">
   <div class="text">proEColiDB was developed by Monica Padilla and Sophia Orozco, who are currently undergraduate students of the Genomic Sciences program at "Laboratorio Internacional de Investigacion sobre el Genoma Humano", UNAM (Queretaro, Mexico). 
 <br><br>If you have any doubts or suggestions about our page, please contact us at any of the following emails:
 <br><br>mpadilla@lcgej.unam.mx
