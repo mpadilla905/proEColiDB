@@ -1,0 +1,19 @@
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th, td {
+  font-family: "Noto Sans", sans-serif;
+  text-align: left;
+  padding: 4px;
+  border: 1px solid #4f7cac;
+}
+
+th {
+  background-color: #46237a; /* morado*/
+  color: white;
+  font-size: 20px;
+}
+tr:hover {background-color: #4f7cac;} /* a2 */
+
