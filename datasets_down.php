@@ -43,9 +43,9 @@
   <br></br><br></br>
   <div id = "content">
     <div class="text">
-      <p><a href="dataset_gene.tsv" download> Download Gene Dataset </a> <a href="dataset_gene.tsv" > View Gene Dataset </a></p><br>
-      <p><a href="dataset_product.tsv" download> Download Product Dataset </a> <a href="dataset_product.tsv" > View Product Dataset </a></p><br>
-      <p><a href="dataset_operon.tsv" download> Download Operon Dataset </a> <a href="dataset_operon.tsv" > View Operon Dataset </a></p>
+      <p><a href="dataset_gene.tsv" download> Download Gene Dataset </a> <a href="dataset_gene.tsv target='_blank'" > View Gene Dataset </a></p><br>
+      <p><a href="dataset_product.tsv" download> Download Product Dataset </a> <a href="dataset_product.tsv target='_blank'" > View Product Dataset </a></p><br>
+      <p><a href="dataset_operon.tsv" download> Download Operon Dataset </a> <a href="dataset_operon.tsv target='_blank'" > View Operon Dataset </a></p>
     </div>
   </div>
 </body>
