@@ -21,7 +21,7 @@ if (isset($consultaSearch)) {
 
   // return result corresponding to the search filter
   //if( $option == 'GENE'){
-    $selectGene = "SELECT gene_name FROM GENE WHERE gene_name LIKE '".$consultaSearch."%'";
+    $selectGene = "SELECT gene_name FROM GENE WHERE gene_name LIKE '%".$consultaSearch."%'";
     $consulta = mysqli_query($conexion, $selectGene);
 
     // Obtiene la cantidad de filas que hay en la consulta
