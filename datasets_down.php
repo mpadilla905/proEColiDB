@@ -1,3 +1,4 @@
+
 <html>
  <head>
   <meta charset="utf-8">
@@ -33,7 +34,7 @@
             </div>
          </div>
          </div>
-        <form class="search_bar" method="get" action="results.php">
+        <form class="search_bar" method="get" action="preresults.php">
           <input type="text" placeholder="Search a gene" name="search" id="search" autocomplete="off" onKeyUp="buscar();"/>
           <button type="submit"><i class="fa fa-search"></i></button>
         </form>
@@ -43,8 +44,8 @@
   <div id = "content">
     <div class="text">
       <p><a href="dataset_gene.tsv" download> Download Gene Dataset </a></p><br>
-      <p><a href="dataset_product.tsv" download> Download Gene Dataset </a></p><br>
-      <p><a href="dataset_operon.tsv" download> Download Gene Dataset </a></p>
+      <p><a href="dataset_product.tsv" download> Download Product Dataset </a></p><br>
+      <p><a href="dataset_operon.tsv" download> Download Operon Dataset </a></p>
     </div>
   </div>
 </body>
