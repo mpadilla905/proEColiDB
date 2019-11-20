@@ -58,6 +58,7 @@
       $ref_regulon = "http://regulondb.ccg.unam.mx/search?term=".$inputSearch."&organism=ECK12&type=All";
       $ref_ecocyc = "https://ecocyc.org/ECOLI/substring-search?type=NIL&object=".$inputSearch."&quickSearch=Quick+Search";
       ?>
+
       <br><br><table>
       <th>  Gene </th><th></th>
       <?php
@@ -76,7 +77,8 @@
             if( !file_exists($seq_file_name) ){
               // if file doesnt exists
               $seq_file = fopen($seq_file_name, "w") or die("Unable to open file!");
-              $fasta = "> ECK12\t".$gene_id."\t".$res_campos['gene_posleft']."\t".$res_campos['gene_posright']."\n".$res_campos['gene_sequence']."";
+              $seq = str_split($res_campos['gene_sequence'], 50);
+              $fasta = "> ECK12\t".$gene_id."\t".$res_campos['gene_posleft']."\t".$res_campos['gene_posright']."\n".$seq."";
               fwrite($seq_file, $fasta);
               //chmod('/var/www/html/seqs', 0777);
               fclose($seq_file);
