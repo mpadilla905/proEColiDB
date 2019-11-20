@@ -59,8 +59,8 @@
       $filas = mysqli_num_rows($consulta);
 
       // Empezar pagina de resultados para el gen solicitado
-      $ref_regulon = "http://regulondb.ccg.unam.mx/search?term=".$inputSearch."&organism=ECK12&type=All";
-      $ref_ecocyc = "https://ecocyc.org/ECOLI/substring-search?type=NIL&object=".$inputSearch."&quickSearch=Quick+Search";
+      $ref_regulon = "http://regulondb.ccg.unam.mx/search?term=".$inputSearch."&organism=ECK12&type=All target='_blank'";
+      $ref_ecocyc = "https://ecocyc.org/ECOLI/substring-search?type=NIL&object=".$inputSearch."&quickSearch=Quick+Search target='_blank'";
       ?>
 
       <br><br><table>
