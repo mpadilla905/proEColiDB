@@ -78,8 +78,12 @@
             if( !file_exists($seq_file_name) ){
               // if file doesnt exists
               $seq_file = fopen($seq_file_name, "w") or die("Unable to open file!");
-              //$seq = str_split($res_campos['gene_sequence'], 50);
-              $fasta = "> ECK12\t".$gene_id."\t".$res_campos['gene_posleft']."\t".$res_campos['gene_posright']."\n".$res_campos['gene_sequence']."";
+              $seq = str_split($res_campos['gene_sequence'], 80);
+              $seqi = "";
+	      foreach ($seq as $val) {
+ 			 $seqi .= $val."\n";
+	      }
+	      $fasta = "> ECK12\t".$gene_id."\t".$res_campos['gene_posleft']."\t".$res_campos['gene_posright']."\n".$seqi."";
               fwrite($seq_file, $fasta);
 //              chmod('/var/www/html/seqs', 0777);
               fclose($seq_file);
@@ -176,7 +180,12 @@
                       if( !file_exists($prod_seq_file_name) ){
                         // if file doesnt exists
                         $seq_file = fopen($prod_seq_file_name, "w") or die("Unable to open file!");
-                        $fasta = "> ECK12\t".$prod_id."\t".$res_campos['product_name']."\n".$res_campos['product_sequence']."";
+                        $seq = str_split($res_campos['product_sequence'], 80);
+              		$seqi = "";
+              		foreach ($seq as $val) {
+                         	$seqi .= $val."\n";
+              		}
+			$fasta = "> ECK12\t".$prod_id."\t".$res_campos['product_name']."\n".$seqi."";
                         fwrite($seq_file, $fasta);
                         //chmod('/var/www/html/seqs', 0777);
                         fclose($seq_file);
