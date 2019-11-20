@@ -61,7 +61,7 @@
             </div>
          </div>
          </div>
-        <form class="search_bar" method="get" action="results.php">
+        <form class="search_bar" method="get" action="preresults.php">
           <input type="text" placeholder="Search a gene" name="search" id="search" autocomplete="off" onKeyUp="buscar();"/>
           <button type="submit"><i class="fa fa-search"></i></button>
         </form>
