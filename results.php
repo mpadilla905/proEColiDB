@@ -45,6 +45,7 @@
 
       // Receive variables and check the option of search
       $inputSearch = escapeshellcmd( $_GET["search"] );
+      $gene = 1;
 
       // Consulta a DB de genes
       $select = "SELECT gene_id, gene_name, gene_posleft, gene_posright, gene_strand, gene_sequence FROM GENE WHERE gene_name = '".$inputSearch."' ";
@@ -98,21 +99,27 @@
             if( mysqli_num_rows($consultaSyn) === 0 ){
               $syn .= "no synonyms found :(";
             } else {
+              $a = 0;
               while( $res_campos_syn = mysqli_fetch_array($consultaSyn) ){
-                $syn .= $res_campos_syn['object_synonym_name'].",";
+                if ($a == 0){
+                  $syn .= $res_campos_syn['object_synonym_name'];
+                  $a++;
+                } else {
+                  $syn .= ",".$res_campos_syn['object_synonym_name'];
+                }
               }
             }
 
          ?>
-         <tr>
-           <td><b>Synonyms:</b></td>
-           <td>  <?= $syn; ?> </td>
-         </tr>
-         <tr>
-           <td><b> External DBs:</b></td>
-           <td> <a href=<?= $ref_regulon; ?> > '<?= $inputSearch; ?> in regulondb' </a>
-           <a href=<?= $ref_ecocyc; ?> > '<?= $inputSearch; ?> in ecocyc' </a></td>
-         </tr>
+           <tr>
+             <td><b>Synonyms:</b></td>
+             <td>  <?= $syn; ?> </td>
+           </tr>
+           <tr>
+             <td><b> External DBs:</b></td>
+             <td> <a href=<?= $ref_regulon; ?> > '<?= $inputSearch; ?> in regulondb' </a>
+             <a href=<?= $ref_ecocyc; ?> > '<?= $inputSearch; ?> in ecocyc' </a></td>
+           </tr>
       <?php
         }
        ?>
@@ -122,8 +129,8 @@
          <th>  Product </th><th></th>
       <?php
         // Tabla Producto: familia reguladora, motivos
-        // Consulta a DB de proteina
-        if ($gene){
+        if ($gene) {
+          // Consulta a DB de proteina
           $select = "SELECT p.product_id, p.product_name, p.product_sequence, p.location, p.molecular_weigth, p.isoelectric_point FROM PRODUCT p, GENE_PRODUCT_LINK gpl WHERE p.product_id = gpl.product_id AND gpl.gene_id = '".$gene_id."' ";
           $consulta = mysqli_query($conexion, $select);
 
@@ -171,16 +178,22 @@
                        if( mysqli_num_rows($consultaSyn) === 0 ){
                          $syn .= "no synonyms found :(";
                        } else {
+                         $a = 0;
                          while( $res_campos_syn = mysqli_fetch_array($consultaSyn) ){
-                           $syn .= $res_campos_syn['object_synonym_name'].",";
+                           if ($a == 0){
+                             $syn .= $res_campos_syn['object_synonym_name'];
+                             $a++;
+                           } else {
+                             $syn .= ",".$res_campos_syn['object_synonym_name'];
+                           }
                          }
                        }
                     ?>
-                    <tr>
-                      <td><b>Synonyms:</b></td>
-                      <td>  <?= $syn; ?> </td>
-                    </tr>
-                    <tr><td> </td><td> </td></tr>
+                      <tr>
+                        <td><b>Synonyms:</b></td>
+                        <td>  <?= $syn; ?> </td>
+                      </tr>
+                      <tr><td> </td><td> </td></tr>
                  <?php
                } // while
             } // else
