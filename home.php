@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="./css/style_menuu.css">
   <link rel="stylesheet" href="./css/style_search.css">
   <link rel="stylesheet" href="./css/style_text.css">
-  <link rel="stylesheet" href="./css/style_homecontent.css">
+  <link rel="stylesheet" href="./css/style_homecontent2.css">
   <link rel="icon" href="./imagenes/proEColi_slogo_trans.png" type="image/icon type">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/style_preresult3.css">
@@ -56,7 +56,7 @@
               <button id="down_bt">Download Menu</button>
               <div id="sub_download">
                 <a href="preregistry.php">Dump</a>
-                <a href="#">Data Base</a>
+                <a href="datasets_down.php">Data Base</a>
               </div>
             </div>
          </div>
@@ -68,6 +68,12 @@
     </div>
   </div>
   <br></br><br></br>
-  <div id="resultSearch"></div>
+  <div id="content">
+    <div class="text">
+      <p>proEColiDB is a database designed by students for the scientific community and anyone interested in basic knowledge about the Escherichia coli K-12 genome.</p>
+      <p>With this web site we aim to provide a friendly place where you can find reliable information. </p>
+    </div>
+    <div id="resultSearch"></div>
+  </div>
 </body>
 </html>
