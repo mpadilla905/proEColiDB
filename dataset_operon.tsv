@@ -1,0 +1,2180 @@
+transcription_unit_name operon_name promoter_name
+galR galR galRp
+lpxL lpxL lpxLp
+yceA yceA yceAp
+mraZW-ftsLI-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC mraZ-rsmH-ftsLI-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC mraZp
+sohB sohB sohBp1
+sohB sohB sohBp2
+mpl mpl mplp1
+mpl mpl mplp2
+menA-rraA menA-rraA menAp
+astCADBE astCADBE astCp1
+astCADBE astCADBE astCp2
+astCADBE astCADBE astCp3
+pyrH pyrH pyrHp
+nrdHIEF nrdHIEF nrdHp
+srkA-dsbA srkA-dsbA srkAp
+dsbA srkA-dsbA dsbAp
+dmsABC dmsABC dmsAp2
+moaABCDE moaABCDE moaAp1
+moaABCDE moaABCDE moaAp2
+ptsG ptsG ptsGp1
+ptsG ptsG ptsGp2
+grcA grcA grcAp1
+rrsA-ileT-alaT-rrlA-rrfA rrsA-ileT-alaT-rrlA-rrfA rrsAp1
+rrsC-gltU-rrlC-rrfC rrsC-gltU-rrlC-rrfC rrsCp1
+rrsC-gltU-rrlC-rrfC rrsC-gltU-rrlC-rrfC rrsCp2
+rrsE-gltV-rrlE-rrfE rrsE-gltV-rrlE-rrfE rrsEp
+rrsG-gltW-rrlG-rrfG rrsG-gltW-rrlG-rrfG rrsGp1
+rrsG-gltW-rrlG-rrfG rrsG-gltW-rrlG-rrfG rrsGp2
+rrsH-ileV-alaV-rrlH-rrfH rrsH-ileV-alaV-rrlH-rrfH rrsHp1
+rrsH-ileV-alaV-rrlH-rrfH rrsH-ileV-alaV-rrlH-rrfH rrsHp2
+rrsD-ileU-alaU-rrlD-rrfD-thrV-rrfF rrsD-ileU-alaU-rrlD-rrfD-thrV-rrfF rrsDp1
+rrsD-ileU-alaU-rrlD-rrfD-thrV-rrfF rrsD-ileU-alaU-rrlD-rrfD-thrV-rrfF rrsDp2
+uspB uspB uspBp
+efp efp efpp
+sugE gdx sugEp
+chpSB chpSB chpSp1
+chpSB chpSB chpSp2
+uof-fur fldA-uof-fur uofp
+fldA-uof-fur fldA-uof-fur fldAp
+argP argP argPp
+yihG yihG yihGp
+ydeA ydeA ydeAp
+ftsAZ mraZ-rsmH-ftsLI-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC ftsAp1
+dctA dctA dctAp
+flxA flxA flxAp
+fliC fliC fliCp
+motAB-cheAW motAB-cheAW motAp
+tsr tsr tsrp
+flgMN flgAMN flgMp
+flgK flgKL flgKp
+aer aer aerp
+tar-tap-cheRBYZ tar-tap-cheRBYZ tarp
+ycgR ycgR ycgRp
+yhjH pdeH yhjHp
+nanATEK-yhcH nanATEK-yhcH nanAp
+nanA nanATEK-yhcH nanAp
+dcuC dcuC dcuCp
+asr asr asrp
+fxsA fxsA fxsAp
+pth-ychF pth-ychF pthp
+ychF pth-ychF ychFp
+metK metK metKp
+pspABCDE pspABCDE pspAp
+pspF pspF pspFp1
+pspF pspF pspFp2
+pspF pspF pspFp3
+cusCFBA cusCFBA cusCp
+cusRS cusRS cusRp
+inaA inaA inaAp
+iscRSUA iscRSUA iscRp
+xseB-ispA-dxs-yajO xseB-ispA-dxs-yajO xseBp
+dcuD dcuD dcuDp
+gabDTP glaH-lhgD-gabDTP gabDp1
+rlmL-uup rlmL-uup rlmLp
+psiE psiE psiEp
+hpt hpt hptp
+gcd gcd gcdp1
+gcd gcd gcdp2
+mfd mfd mfdp1
+mfd mfd mfdp2
+ybjC-nfsA-rimK-ybjN ybjC-nfsA-rimK-ybjN ybjCp
+rimK-ybjN ybjC-nfsA-rimK-ybjN rimKp
+gadX gadAXW gadXp
+gadXW gadAXW gadXp
+metNIQ metNIQ metNp
+serA serA serAp2
+pcnB-folK pcnB-folK pcnBp3
+mhpABCDFE mhpABCDFE mhpAp
+mhpR-lacI mhpRp
+mgtA mgtLA mgtAp2
+treR treR treRp2
+treR treR treRp3
+treR treR treRp4
+fiu fiu fiup
+exbBD exbBD exbBp
+exbD exbBD exbDp
+fhuE fhuE fhuEp
+sufABCDSE sufABCDSE sufAp
+narU narU narUp1
+narU narU narUp2
+flu isrC-flu flup
+amiA-hemF amiA-hemF amiAp
+hemF amiA-hemF hemFp
+emrKY emrKY emrKp
+trxC trxC trxCp
+glsA-ybaT glsA-ybaT glsAp
+cueO cueO cueOp
+chiA chiA chiAp
+xdhABC xdhAp
+cydAB cydAB cydAp3
+cydAB cydAB cydAp4
+cydAB cydAB cydAp5
+fldB fldB fldBp
+infC-rpmI-rplT thrS-infC-rpmI-rplT-pheMST-ihfA infCp2
+patA patA patAp
+potFGHI potFGHI potFp1
+rrsB-gltT-rrlB-rrfB rrsB-gltT-rrlB-rrfB rrsBp2
+gpmA gpmA gpmAp
+ygaC ygaC ygaCp
+lpxP lpxP lpxPp
+ybaB-recR ybaBp
+smpA bamE bamEp
+psd-mscM psdp
+bacA bacA bacAp
+sbmA-yaiW sbmA-yaiW sbmAp
+pphA pphA pphAp
+yeaY tsaB-yeaY yeaYp
+yiiS-uspD yiiSp
+sixA sixA sixAp
+yfeYX yfeYX yfeYp
+argT-hisJQMP argT-hisJQMP argTp
+prpBCDE prpBCDE prpBp
+yeaGH yeaGH yeaGp1
+yhdWXYZ yhdWXYZ yhdWp
+ddpXABCDF ddpXABCDF ddpXp
+gltI-sroC-gltJKL gltIp
+rutABCDEFG rutABCDEFG rutAp
+acs-yjcHG acs-yjcH-actP acsp1
+acs-yjcHG acs-yjcH-actP acsp2
+rapA-rluA hepAp
+nhaAR nhaAR nhaAp2
+sra bdm-sra srap
+entS entS entSp1
+entS entS entSp2
+fepDGC fepDGC fepDp2
+csiD-ygaF-gabDTP glaH-lhgD-gabDTP csiDp
+pdeR pdeR pdeRp
+dsbC xerD-dsbC-recJ-prfB-lysS dsbCp
+mdoGH opgGH opgGp2
+hlpA-lpxD-fabZ-lpxA bamA-skp-lpxD-fabZ-lpxAB-rnhB-dnaE hlpAp
+bamC dapA-bamC bamCp
+rfaDFCL rfaD-waaFCL rfaDp1
+rfaDFCL rfaD-waaFCL rfaDp2
+rfaDFCL rfaD-waaFCL rfaDp4
+lpxD bamA-skp-lpxD-fabZ-lpxAB-rnhB-dnaE lpxDp
+moeAB moeAB moeAp
+fadD-sroD fadD-sroD fadDp
+yggN yggN yggNp1
+yggN yggN yggNp2
+htrG ygiM-cca ygiMp
+yraP yraP yraPp
+yidQ yidQ yidQp
+ytfJ ytfJ ytfJp
+bamA bamA-skp-lpxD-fabZ-lpxAB-rnhB-dnaE bamAp
+yqjA-mzrA yqjAp2
+bamD bamD bamDp
+rseP rseP rsePp
+yghF yghF yghFp
+imp lptD-surA-pdxA-rsmA-apaGH impp1
+imp lptD-surA-pdxA-rsmA-apaGH impp2
+imp-surA-pdxA lptD-surA-pdxA-rsmA-apaGH impp3
+iclR iclR iclRp
+nagE nagE nagEp
+puuP puuA-ymjE-puuP puuPp
+glrK glrK glrKp
+norVW norVW norVp
+seqA-pgm seqA-pgm seqAp
+garD garD garDp
+gudPXD gudPXD gudPp
+mngAB mngAB mngAp
+rpiB rpiB rpiBp
+cdaR cdaR cdaRp
+alsRBACE alsRBACE alsRp2
+alsRBACE alsRBACE alsRp1
+gntR gntRKU gntRp2
+gntR gntRKU gntRp3
+gntR gntRKU gntRp4
+galETKM galETKM galEp3
+dcuB-fumB dcuB-fumB dcuBp2
+znuCB znuCB znuCp
+zntA zntA zntAp
+nfsB nfsB nfsBp
+idnK idnK idnKp
+idnDOTR idnDOTR idnDp
+lacZYA lacZYA lacZp3
+lacZYA lacZYA lacZp2
+lacZYA lacZYA lacZp4
+csrB csrB csrBp
+nrdDG nrdDG nrdDp
+bglGFB bglGFB bglGp
+bglG bglGFB bglGp
+csrC csrC csrCp
+gabDTP glaH-lhgD-gabDTP gabDp2
+gadE gadEF-mdtEF gadEp1
+hdeD hdeD hdeDp
+idnR idnDOTR idnRp
+gntT gntT gntTp3
+gntT gntT gntTp2
+gntP gntP gntPp
+gntXY yhgH-nfuA gntXp
+ibpB ibpAB ibpBp
+groSL groSL groSp
+uxaCA uxaCA uxaCp
+uxuR uxuR uxuRp
+metA metA metAp2
+uidABC uidABC uidAp
+uidR uidR uidRp
+fusA-tufA rpsLG-fusA-tufA fusAp
+ulaABCDEF ulaABCDEF ulaAp
+ulaG ulaG ulaGp
+usg-truA-dedA pdxB-usg-truA-dedA usgp
+rsmA-apaGH lptD-surA-pdxA-rsmA-apaGH rsmAp
+pdxA-rsmA-apaGH lptD-surA-pdxA-rsmA-apaGH pdxAp
+pdxA-rsmA lptD-surA-pdxA-rsmA-apaGH pdxAp
+apaGH lptD-surA-pdxA-rsmA-apaGH apaGp
+ccmABCDEFGH napFDAGHBC-ccmABCDEFGH ccmAp
+fadIJ fadIJ fadIp
+osmF-yehYXW osmF-yehYXW osmFp
+malZ malZ malZp
+aes aes aesp
+argG argG argGp
+yicR-rpmBG-mutM yicR-rpmBG-mutM yicRp
+yicR-rpmBG yicR-rpmBG-mutM yicRp
+mutM yicR-rpmBG-mutM mutMp
+mutY-yggX-mltC-nupG mutY-yggX-mltC-nupG mutYp1
+mutY-yggX mutY-yggX-mltC-nupG mutYp1
+mutY-yggX-mltC mutY-yggX-mltC-nupG mutYp1
+mutY-yggX-mltC-nupG mutY-yggX-mltC-nupG mutYp2
+mutY-yggX mutY-yggX-mltC-nupG mutYp2
+mutY-yggX-mltC mutY-yggX-mltC-nupG mutYp2
+yggX-mltC-nupG mutY-yggX-mltC-nupG yggXp
+yggX mutY-yggX-mltC-nupG yggXp
+yggX-mltC mutY-yggX-mltC-nupG yggXp
+ubiCA ubiCA ubiCp
+gadEF-mdtEF gadEF-mdtEF gadEp
+pspG pspG pspGp
+gadY gadY gadYp
+gcvB gcvB gcvBp
+dinG-ybiB dinG-ybiB dinGp
+kbaZ-agaVWA kbaZ-agaVWA kbaZp
+agaR agaR agaRp
+agaSYBCDI agaS-kbaY-agaBCDI agaSp
+hisLGDCBHAFI hisLGDCBHAFI hisLp
+hisL hisLGDCBHAFI hisLp
+cstA cstA cstAp3
+cstA cstA cstAp2
+cstA cstA cstAp1
+nanCMS nanCp
+nanCMS nanCMS nanCp
+talA-tktB talA-tktB talAp1
+cspI cspI cspIp
+hcp-hcr hcp-hcr-poxB-ltaE-ybjT hcpp
+hcp-hcr-poxB hcp-hcr-poxB-ltaE-ybjT hcpp
+alkA alkA alkAp
+araBAD araBAD araBp
+argE argE argEp1
+argR argR argRp1
+carAB carAB carAp2
+cirA cirA cirAp2
+cirA cirA cirAp1
+cyaA cyaA cyaAp
+deoCABD deoCABD deoCp1
+deoCABD deoCABD deoCp2
+dmsABC dmsABC dmsAp1
+dusB-fis dusB-fis dusBp
+fnr fnr fnrp
+frdABCD frdABCD frdAp
+galS galS galSp
+galETKM galETKM galEp1
+galE galETKM galEp1
+galET galETKM galEp1
+galETK galETKM galEp1
+galETKM galETKM galEp2
+galE galETKM galEp2
+galET galETKM galEp2
+galETK galETKM galEp2
+glnA glnALG glnAp1
+glnALG glnALG glnAp1
+glpABC glpABC glpABCp
+glpD glpD glpDp
+ivbL-ilvBN ivbL-ilvBN-uhpABC ivbLp
+ivbL ivbL-ilvBN-uhpABC ivbLp
+ilvY ilvY ilvYp
+kdpFABC kdpFABC kdpFp
+lacZYA lacZYA lacZp1
+lexA-dinF lexA-dinF lexAp
+malEFG malEFG malEp
+malK-lamB-malM malK-lamB-malM malKp
+malPQ malPQ malPp
+melR melR melRp
+metA metA metAp1
+nagBACD nagBAC-umpH nagBp
+nrdAB-yfaE nrdAB-yfaE nrdAp
+ompA ompA ompAp1
+ompC ompC ompCp1
+rhaSR rhaSR rhaSp
+rpoH rpoH rpoHp5
+sulA sulA sulAp
+trpLEDCBA trpLEDCBA trpLp
+trpL trpLEDCBA trpLp
+tyrR ycjXF-tyrR tyrRp
+uvrD uvrD uvrDp1
+ahpCF ahpCF ahpCp
+araE araE-ygeA araEp
+araE-ygeA araE-ygeA araEp
+cysB cysB cysBp
+cysJIH cysJIH cysJp
+cysK cysK cysKp1
+fadL fadL fadLp
+ilvIH ilvIH ilvIHp1
+purEK purEK purEp
+rpoH rpoH rpoHp4
+kbl-tdh kbl-tdh kblp
+tnaCAB tnaCAB tnaCp
+tnaC tnaCAB tnaCp
+tyrP tyrP tyrPp1
+glnB glrR-glnB glnBp2
+ilvC ilvC ilvCp
+purA purA purAp
+alkB ada-alkB alkBp
+aidB aidB aidBp
+slp-dctR slp-dctR slpp
+appCBA-yccB appCBXA appCp
+araFGH araFGH araFp
+araJ araJ araJp
+cydAB cydAB cydAp1
+cyoABCDE cyoABCDE cyoAp
+sdhCDAB-sucABCD-sdhX sdhCDAB-sucABCD-sdhX sdhCp
+sucABCD sdhCDAB-sucABCD-sdhX sucAp
+sucAB sdhCDAB-sucABCD-sdhX sucAp
+fumC fumAC fumCp
+gltA gltA gltAp1
+icd icd icdAp1
+mdh mdh mdhp1
+carAB carAB carAp1
+argD argD argDp
+asnA asnA asnAp
+asnC asnC-mioC-mnmG-rsmG asnCp
+asnC-mioC asnC-mioC-mnmG-rsmG asnCp
+asnC-mioC-mnmG asnC-mioC-mnmG-rsmG asnCp
+atoDAEB atoDAEB atoDp
+betIBA betIBA betIp
+betT betT betTp
+cadC cadC cadCp
+crp crp crpp1
+cpdB cpdB cpdBp
+fur fldA-uof-fur furpa
+glgCAP glgBXCAP glgCp1
+speC speC speCp
+tdcABCDEFG tdcABCDEFG tdcAp
+ubiG ubiG ubiGp
+fucPIKUR fucPIKUR fucPp
+nupG mutY-yggX-mltC-nupG nupGp
+uhpT uhpT uhpTp
+melAB melAB melAp
+malXY malXY malXp
+srlAEBD-gutM-srlR-gutQ srlAEBD-gutM-srlR-gutQ srlAp
+udp udp udpP
+flhDC flhDC flhDp
+malS malS malSp
+aldB aldB aldBp
+hns hns hnsp
+pck pck pckp
+cynTSX cynTSX cynTp
+cynTS cynTSX cynTp
+cynR cynR cynRp
+cysPUWAM cysPUWAM cysPp
+cysDNC cysDNC cysDp
+nupC nupC nupCp
+dsdA dsdXA dsdAp
+exuT exuT exuTp2
+fecIR fecIR fecIp
+hycABCDEFGHI hycABCDEFGHI hycAp
+hypABCDE hypABCDE-fhlA hypAp
+hypABCDE-fhlA hypABCDE-fhlA hypAp
+proP proP proPp1
+narXL narXL narXp
+fdnGHI fdnGHI fdnGp
+ndh ndh ndhp
+fumB dcuB-fumB fumBp
+aspA-dcuA aspA-dcuA aspAp
+aspA aspA-dcuA aspAp
+fruBKA fruBKA fruBp
+pps ppsA ppsp
+fepA-entD fepA-entD fepAp
+fepB fepB fepBp
+fepDGC fepDGC fepDp1
+entCEBA-ybdB entCEBAH entCp
+tonB tonB tonBp
+mglBAC mglBAC mglBp
+gatYZABCD gatYZABCD gatYp
+gcvTHP gcvTHP gcvTp
+gcvA gcvA gcvAp
+glnHPQ glnHPQ glnHp2
+glpFKX glpFKX glpFp
+ihfA thrS-infC-rpmI-rplT-pheMST-ihfA ihfAp4
+ihfB cmk-rpsA-ihfB ihfBp
+dps dps dpsp
+ompR-envZ ompR-envZ ompRp2
+thrLABC thrLABC thrLp
+thrL thrLABC thrLp
+leuLABCD leuLABCD leuLp
+leuL leuLABCD leuLp
+umuDC umuDC umuDp
+lrp lrp lrpp
+gltBDF gltBDF gltBp
+livJ livJ livJp
+livKHMGF livKHMGF livKp1
+fpr fpr fprp
+nfo nfo nfop
+marRAB marRAB marRp
+mtlADR mtlADR mtlAp
+manXYZ manXYZ manXp
+codBA codBA codBp
+adhE adhE adhEp1
+nrfABCDEFG nrfABCDEFG nrfAp
+nhaAR nhaAR nhaAp1
+phnCDEEFGHIJKLMNOP phnCDEFGHIJKLMNOP phnCp
+pstSCAB-phoU pstSCAB-phoU pstSp
+pstS pstSCAB-phoU pstSp
+pstSCA pstSCAB-phoU pstSp
+speAB speAB speAp
+guaBA guaBA guaBp
+rbsDACBKR rbsDACBKR rbsDp
+wza-wzb-wzc-wcaAB wza-wzb-wzc-wcaAB wzap
+rhaT rhaT rhaTp
+zwf zwf zwfp
+ftsQAZ mraZ-rsmH-ftsLI-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC ftsQp1
+soxS soxS soxSp
+torCAD torCAD torCp
+treBC treBC treBp
+rhaBAD rhaBAD rhaBp
+lysU lysU lysUp1
+oppABCDF oppABCDF oppAp
+serA serA serAp1
+glnA glnALG glnAp2
+glnALG glnALG glnAp2
+edd-eda edd-eda eddp1
+gntKU gntRKU gntKp
+gntK gntRKU gntKp
+gntT gntT gntTp1
+dnaKJ dnaK-tpke11-dnaJ dnaKp1
+dnaKJ dnaK-tpke11-dnaJ dnaKp2
+dapB dapB dapBp1
+carB carAB carBp
+folA folA folAp
+ilvIH ilvIH ilvIp4
+ilvIH ilvIH ilvIp3
+ilvIH ilvIH ilvIp2
+pdhR-aceEF-lpdA pdhR-aceEF-lpd pdhRp
+aceEF pdhR-aceEF-lpd aceEp
+lpdA pdhR-aceEF-lpd lpdAp
+degP degP degPp
+dapD map-glnD-dapD dapDp
+proS proS proSp
+dnaQ dnaQ dnaQp1
+dnaQ dnaQ dnaQp2
+rnhA rnhA rnhAp
+pepD pepD pepDp2
+pepD pepD pepDp1
+lacI mhpR-lacI lacIp
+queA queA queAp
+tsx tsx tsxp2
+tsx tsx tsxp1
+clpPX clpPX-lon clpPp1
+htpG htpG htpGp1
+htpG htpG htpGp2
+adk adk adkp
+fes-ybdZ-entF-fepE fes-ybdZ-entF-fepE fesp
+asnB asnB asnBp
+umpH nagBAC-umpH umpHp
+glnS glnS glnSp1
+fur fldA-uof-fur furpb
+gltA gltA gltAp2
+sdhDAB sdhCDAB-sucABCD-sdhX sdhDp2
+uvrB uvrB uvrBp3
+glnHPQ glnHPQ glnHp1
+focA-pflB focA-pflB focAp1
+focA-pflB focA-pflB focAp3
+rpsA-ihfB cmk-rpsA-ihfB rpsAp3
+aspC aspC aspCp
+ompA ompA ompAp2
+putP putP putPp2
+putP putP putPp3
+putP putP putPp4
+putP putP putPp5
+phoH phoH phoHp1
+yceD-rpmF yceD-rpmF-plsX-fabHDG-acpP-fabF yceDp1
+yceD-rpmF yceD-rpmF-plsX-fabHDG-acpP-fabF yceDp2
+treA treA treAp
+hemA hemA-prfA-prmC hemAp2
+hemA-prfA-prmC hemA-prfA-prmC hemAp1
+trpCBA trpLEDCBA trpCp
+lapAB-pyrF-yciH pyrFp
+rimL rimL rimLp
+manA manA manAp
+sodB sodB sodBp
+lpp lpp lpp
+pheMST-ihfA thrS-infC-rpmI-rplT-pheMST-ihfA pheMp
+pheM thrS-infC-rpmI-rplT-pheMST-ihfA pheMp
+rplT thrS-infC-rpmI-rplT-pheMST-ihfA rplTp
+rplT-pheM thrS-infC-rpmI-rplT-pheMST-ihfA rplTp
+infC thrS-infC-rpmI-rplT-pheMST-ihfA infCp
+pfkB pfkB pfkBp1
+katE katE katEp
+gdhA gdhA gdhAp1
+gapA-yeaD gapA-yeaD gapAp2
+htpX htpX htpXp
+eda edd-eda edap3
+eda edd-eda edap2
+eda edd-eda edap1
+ruvAB ruvAB ruvAp2
+ruvAB ruvAB ruvAp1
+tyrP tyrP tyrPp2
+uvrC uvrYC uvrCp3
+uvrYC uvrYC uvrYp2
+amn amn amnp1
+sbcB sbcB sbcBp
+hisBHAFI hisLGDCBHAFI hisBp
+gnd gnd gndp
+micF micF micFp
+cvpA-purF-ubiX cvpA-purF-ubiX cvpAp2
+pdxB-usg-truA-dedA pdxB-usg-truA-dedA pdxBp
+flk flk flKp
+fabB fabB fabBp
+ptsHI-crr ptsHI-crr ptsHp4
+ptsHI-crr ptsHI-crr ptsHp2
+crr ptsHI-crr crrp2
+crr ptsHI-crr crrpI
+dapA-nlpB dapA-bamC dapAp
+hisS hisS hisSp
+hmp hmp hmpAp
+lepAB lepAB lepAp
+ung ung ungp
+clpB clpB clpBp
+pheLA pheLA pheLp
+grpE grpE grpEp
+proVWX proVWX proVp1
+proVWX proVWX proVp2
+proVWX proVWX proVp3
+alaS alaS alaSp
+pyrG-eno pyrGp2
+pyrG-eno pyrGp1
+relA-mazEF relA-mazEFG relAp1
+ptrA ptrA-recBD ptrAp
+ptrA-recBD ptrAp
+speB speAB speBp
+ansB ansB ansBp1
+rpsU-dnaG-rpoD rpsU-dnaG-rpoD rpsUp1
+rpsU rpsU-dnaG-rpoD rpsUp1
+rpsU-dnaG-rpoD rpsU-dnaG-rpoD rpsUp2
+rpoD rpsU-dnaG-rpoD rpoDp1
+rpoD rpsU-dnaG-rpoD rpoDp2
+rpoD rpsU-dnaG-rpoD rpoDp3
+pnp metY-rimP-nusA-infB-rbfA-truB-rpsO-pnp pnpp
+rpsO-pnp metY-rimP-nusA-infB-rbfA-truB-rpsO-pnp rpsOp
+rpsO metY-rimP-nusA-infB-rbfA-truB-rpsO-pnp rpsOp
+metY-yhbC-nusA-infB-rbfA-truB-rpsO-pnp metY-rimP-nusA-infB-rbfA-truB-rpsO-pnp metYp1
+metY-yhbC-nusA-infB metY-rimP-nusA-infB-rbfA-truB-rpsO-pnp metYp1
+metY metY-rimP-nusA-infB-rbfA-truB-rpsO-pnp metYp1
+rlmE-ftsH rlmE-ftsH rlmEp2
+argR argR argRp2
+rplNXE-rpsNH-rplFR-rpsE-rpmD-rplO-secY-rpmJ rplNXE-rpsNH-rplFR-rpsE-rpmD-rplO-secY-rpmJ rplNp
+rpsJ-rplCDWB-rpsS-rplV-rpsC-rplP-rpmC-rpsQ rpsJ-rplCDWB-rpsS-rplV-rpsC-rplP-rpmC-rpsQ rpsJp
+rpsLG-fusA-tufA rpsLG-fusA-tufA rpsLp
+pabA yhfG-fic-pabA pabAp1
+yhfG-fic-pabA yhfG-fic-pabA yhfGp
+ugpBAECQ ugpBAECQ ugpBp1
+ugpBAECQ ugpBAECQ ugpBp2
+uspA uspA uspAp1
+cspA cspA cspAp1
+cspA cspA cspAp2
+cysE cysE cysEp
+rph-pyrE rph-pyrE rphp1
+rph rph-pyrE rphp1
+gyrB gyrB gyrBp
+recF dnaAN-recF recFp1
+recF dnaAN-recF recFp2
+dnaN-recF dnaAN-recF dnaNp4
+dnaN-recF dnaAN-recF dnaNp3
+dnaN-recF dnaAN-recF dnaNp2
+dnaN-recF dnaAN-recF dnaNp1
+dnaAN-recF dnaAN-recF dnaAp2
+dnaAN-recF dnaAN-recF dnaAp1
+rpmH-rnpA rpmH-rnpA rpmHp3
+rpmH-rnpA rpmH-rnpA rpmHp1
+rpmH-rnpA rpmH-rnpA rpmHp2
+atpBEFHAGDC atpIBEFHAGDC atpBp2
+atpBEFHAGDC atpIBEFHAGDC atpBp1
+atpIBEFHAGDC atpIBEFHAGDC atpIp
+ilvLXG_1G_2MEDA ilvLXGMEDA ilvLp1
+ilvL ilvLXGMEDA ilvLp1
+ilvLXG_1G_2MEDA ilvLXGMEDA ilvLp2
+ilvL ilvLXGMEDA ilvLp2
+ilvEDA ilvLXGMEDA ilvEp3
+ilvA ilvLXGMEDA ilvAp
+rep rep repp
+trxA trxA trxAp1
+trxA trxA trxAp2
+rhoL-rho rhoL-rho rhoLp
+rhoL rhoL-rho rhoLp
+uvrD uvrD uvrDp2
+spf spf spfp
+cdh cdh cdhp
+hslVU hslVU hslVp
+cytR cytR cytRp
+metJ metJ metJp3
+metJ metJ metJp2
+metJ metJ metJp1
+metBL metBL metBp
+ppc ppc ppcp
+argE argE argEp2
+trmA trmA trmAp
+btuB-murI btuBp
+rplKAJL-rpoBC rplKAJL-rpoBC rplKp
+rplJL-rpoBC rplKAJL-rpoBC rplJp
+rpoBC rplKAJL-rpoBC rpoBp
+ssb ssb ssbp2
+ssb ssb ssbp1
+ampC ampC ampCp
+yzfA yzfA yzfAp2
+pyrLBI pyrLBI pyrLp2
+pyrLBI pyrLBI pyrLp1
+valS holC-valS valSp2
+valS holC-valS valSp1
+deoBD deoCABD deoBp
+ytjB-lplA ytjBp
+serB-radA serB-radA-nadR serBp
+lon clpPX-lon lonp
+ibpAB ibpAB ibpAp
+rfaDFCL rfaD-waaFCL rfaDp3
+rrsB-gltT-rrlB-rrfB rrsB-gltT-rrlB-rrfB rrsBp1
+hflD-purB hflD-purB hflDp
+dsdXA dsdXA dsdXp
+focA-pflB focA-pflB focAp2
+pflB focA-pflB pflBp1
+pflB focA-pflB pflBp2
+pflB focA-pflB pflBp3
+pflB focA-pflB pflBp4
+pflB focA-pflB pflBp5
+accA accA accAp
+ackA ackA-pta ackAp
+accBC accBC accBp
+accD accD accDp
+bolA bolA bolAp1
+caiTABCDE caiTABCDE caiTp
+osmY osmY osmYp
+cbpAM cbpAM cbpAp1
+osmB osmB osmBp1
+osmB osmB osmBp2
+otsBA otsBA otsBp
+otsA otsBA otsAp
+csgBAC csgBAC csgBp
+csgDEFG csgDEFG csgDp1
+stpA stpA stpAp1
+stpA stpA stpAp2
+stpA stpA stpAp3
+dadAX dadAX dadAp2
+treR treR treRp1
+mdoGH opgGH opgGp1
+osmE osmE osmEp
+osmC osmC osmCp1
+osmC osmC osmCp2
+dppABCDF dppABCDF dppAp
+topA topA topAp1
+topA topA topAp2
+topA topA topAp3
+topA topA topAp4
+topA topA topAp5
+yjaZ yjaZ yjaZp
+yadV-htrE yadV-htrE yadVp1
+yadV-htrE yadV-htrE yadVp2
+yadV-htrE yadV-htrE yadVp3
+htgA mbiA htgAp1
+htgA mbiA htgAp2
+mngR mngR mngRp
+fimB fimB fimBp1
+fimB fimB fimBp2
+fimB fimB fimBp3
+rlmE-ftsH rlmE-ftsH rlmEp1
+fliAZY fliAZ-tcyJ fliAp1
+fkpA fkpA fkpAp1
+fkpA fkpA fkpAp2
+dnaKJ dnaK-tpke11-dnaJ dnaKp3
+glgS glgS glgSp1
+glgS glgS glgSp2
+clpPX clpPX-lon clpPp2
+rpoH rpoH rpoHp1
+rpoH rpoH rpoHp3
+hscBA-fdx-iscX hscBA-fdx-iscX hscBp
+hypBCDE hypABCDE-fhlA hypBp
+hypBCDE-fhlA hypABCDE-fhlA hypBp
+icd icd icdAp2
+lrhA lrhA lrhAp
+gapA gapA-yeaD gapAp1
+gapA gapA-yeaD gapAp3
+gapA gapA-yeaD gapAp4
+lysU lysU lysUp2
+uspA uspA uspAp2
+uspA uspA uspAp3
+rpsU-dnaG-rpoD rpsU-dnaG-rpoD rpsUp3
+tesA-ybbO tesAp
+pykF pykF pykFp
+nlpD-rpoS nlpD-rpoS nlpDp1
+nlpD-rpoS nlpD-rpoS nlpDp2
+upp-uraA upp-uraA uppp
+rpoS nlpD-rpoS rpoSp
+epd-pgk epd-pgk-fbaA epdp
+epd-pgk-fbaA epd-pgk-fbaA epdp
+nuoABCEFGHIJKLMN nuoABCEFGHIJKLMN nuoAp2
+nuoABCEFGHIJKLMN nuoABCEFGHIJKLMN nuoAp1
+clpA clpA clpAp1
+clpA clpA clpAp2
+clpA clpA clpAp3
+cspD cspD cspDp
+hyaABCDEF hyaABCDEF hyaAp
+micL micL micLp2
+endA endA endAp1
+endA endA endAp2
+corA corA corAp
+creABCD creABCD creAp
+fliDST fliDST fliDp
+fecABCDE fecABCDE fecAp
+soxR soxR soxRp
+ftsQ mraZ-rsmH-ftsLI-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC ftsQp2
+ftsZ mraZ-rsmH-ftsLI-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC ftsZp2
+ftsZ mraZ-rsmH-ftsLI-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC ftsZp3
+ftsZ mraZ-rsmH-ftsLI-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC ftsZp4
+proP proP proPp2
+livKHMGF livKHMGF livKp2
+emrRAB mprA-emrAB mprAp
+ppiD ppiD ppiDp1
+ppiD ppiD ppiDp2
+appA appCBXA appAp
+ppiA ppiA ppiAp1
+ppiA ppiA ppiAp2
+ppiA ppiA ppiAp3
+ppiA ppiA ppiAp4
+cadBA cadBA cadBp
+glgCAP glgBXCAP glgCp2
+glgCAP glgBXCAP glgCp3
+dcuB-fumB dcuB-fumB dcuBp
+fliAZY fliAZ-tcyJ fliAp2
+glnB glrR-glnB glnBp1
+glnB glrR-glnB glnBp3
+cvpA-purF-ubiX cvpA-purF-ubiX cvpAp1
+ompC ompC ompCp3
+ompC ompC ompCp2
+yhfA yhfA yhfAp
+ptsHI-crr ptsHI-crr ptsHp5
+ptsHI-crr ptsHI-crr ptsHp3
+ptsHI-crr ptsHI-crr ptsHp1
+rcsA rcsA rcsAp
+rpoE-rseABC rseD-rpoE-rseABC rpoEp2a
+rseABC rseD-rpoE-rseABC rseAp3
+rpoN-hpf-ptsN-yhbJ-npr yrbG-kdsDC-lptCAB-rpoN-hpf-ptsN-rapZ-npr rpoNp
+srlR srlAEBD-gutM-srlR-gutQ srlRp
+sspAB sspAB sspAp
+glmUS glmUS glmUp1
+glmUS glmUS glmUp2
+aspV aspV aspVp
+thrW thrW thrWp
+argU argU argUp
+lysT-valT-lysW lysT-valT-lysW lysTp
+valVW valVW valVp
+asnT asnT asnTp
+asnU asnU asnUp
+asnV asnV asnVp
+proL proL proLp
+argW argW argWp
+valUXY-lysV valUXY-lysV valUp
+metZWV metZWV metZp
+pheV pheV pheVp
+ileX ileX ileXp
+argX-hisR-leuT-proM argX-hisR-leuT-proM argXp
+thrU-tyrU-glyT-thrT-tufB thrU-tyrU-glyT-thrT-tufB thrUp
+glyVXY glyVXY glyVp
+leuX leuX leuXp
+metT-leuW-glnUW-metU-glnVX metT-leuW-glnUW-metU-glnVX metTp
+serW infA-serW serWp2
+serT serT serTp
+serX serX serXp
+tyrTV-tpr tyrTV-tpr tyrTp
+glyW-cysT-leuZ glyW-cysT-leuZ-3'ETSleuZ	glyWp
+serU serU serUp
+alaWX alaWX alaWp
+serV-argVYZQ serV-argVYZQ serVp
+glyU glyU glyUp
+metY-yhbC-nusA-infB-rbfA-truB-rpsO-pnp metY-rimP-nusA-infB-rbfA-truB-rpsO-pnp metYp2
+metY metY-rimP-nusA-infB-rbfA-truB-rpsO-pnp metYp2
+leuU secG-leuU leuUp
+proK proK proKp
+pheU pheU pheUp
+leuQPV leuQPV leuQp
+cdd cdd cddp
+uxuAB uxuAB uxuAp
+yeiL yeiL yeiLp
+rihB rihB rihBp
+clsA-yciU clsAp
+phoH phoH phoHp2
+yajC-secDF tgt-yajC-secDF yajCp
+putP putP putPp1
+tgt-yajC tgt-yajC-secDF tgtp
+rpe-gph-trpS aroKB-damX-dam-rpe-gph-trpS rpep
+pntAB pntAB pntAp
+napFDAGHBC-ccmABCDEFGH napFDAGHBC-ccmABCDEFGH napFp1
+xapR xapR xapRp1
+xapR xapR xapRp2
+fliLMNOPQR fliLMNOPQR fliLp1
+fliLMNOPQR fliLMNOPQR fliLp2
+glcDEFGBA glcDEFGBA glcDp
+glcC glcC glcCp
+torR torR torRp
+ssuEADCB ssuEADCB ssuEp
+mgtA mgtLA mgtAp1
+mgrB mgrB mgrBp
+copA copA copAp
+aroKB-damX-dam-rpe-gph-trpS aroKB-damX-dam-rpe-gph-trpS aroKp1
+aroKB-damX-dam-rpe-gph-trpS aroKB-damX-dam-rpe-gph-trpS aroKp2
+damX-dam-rpe-gph-trpS aroKB-damX-dam-rpe-gph-trpS damXp
+dam-rpe-gph-trpS aroKB-damX-dam-rpe-gph-trpS damp1
+dam-rpe-gph-trpS aroKB-damX-dam-rpe-gph-trpS damp2
+lysC lysC lysCp2
+lysC lysC lysCp1
+pgi pgi pgip
+ribA ribA ribAp1
+chbBCARFG chbBCARFG chbBp
+surA-pdxA-rsmA-apaGH lptD-surA-pdxA-rsmA-apaGH surAp
+ribA ribA ribAp2
+arcA arcA arcAp1
+arcA arcA arcAp2
+hybOABCDEFG hybOABCDEFG hybOp1
+arcA arcA arcAp3
+arcA arcA arcAp4
+arcA arcA arcAp6
+arcA arcA arcAp7
+putA putA putAp
+ompR-envZ ompR-envZ ompRp1
+ompR-envZ ompR-envZ ompRp3
+ompR-envZ ompR-envZ ompRp4
+lldPRD lldPRD lldPp
+fimAICDFGH fimAICDFGH fimAp
+fimE fimE fimEp
+acnA ymiC-acnA acnAp1
+acnA ymiC-acnA acnAp2
+acnB acnB acnBp
+msrA msrA msrAp
+aldA aldA aldAp
+bcp bcp bcpp
+cbl cbl cblp
+csiE csiE csiEp
+gcvR gcvR gcvRp
+gltX gltX gltXp1
+gltX gltX gltXp2
+gltX gltX gltXp3
+pqiABC pqiABC pqiAp1
+rtcBA rtcBA rtcBp
+tpx tpx tpxp
+hemN hemN hemNp
+arsRBC arsRBC arsRp
+caiF caiF caiFp
+fixABCX fixABCX fixAp
+lysP lysP lysPp
+smtA-mukFEB cmoM-mukFEB cmoMp
+mobAB mobAB mobAp1
+mobAB mobAB mobAp2
+rpoE-rseABC rseD-rpoE-rseABC rpoEp1a
+ychQA-kdsA ychQA-kdsA ychQp
+kdsA ychQA-kdsA kdsAp
+paaZ paaZ paaZp
+rpmBG-mutM yicR-rpmBG-mutM rpmBp
+rpmBG yicR-rpmBG-mutM rpmBp
+rpoH rpoH rpoHp6
+arcA arcA arcAp5
+nmpC nmpC nmpCp
+cydAB cydAB cydAp2
+cutA cutA cutAp
+cmk-rpsA cmk-rpsA-ihfB cmkp
+ybgA-phr ybgA-phr ybgAp1
+napFDAGHBC-ccmABCDEFGH napFDAGHBC-ccmABCDEFGH napFp2
+phr ybgA-phr phrp
+yiaJ yiaJ yiaJp
+gadBC gadBC gadBp
+gadAX gadAXW gadAp
+paaABCDEFGHIJK paaABCDEFGHIJK paaAp
+xapAB xapAB xapAp
+tauABCD tauABCD tauAp
+glpEGR glpEGR glpEp
+glpGR glpEGR glpGp
+glpR glpEGR glpRp1
+glpR glpEGR glpRp2
+modABC modABC modAp
+blc blc blcp
+cmr mdfA cmrp
+hydN-hypF hydN-hypF hydNp
+acpP-fabF yceD-rpmF-plsX-fabHDG-acpP-fabF acpPp
+acpP yceD-rpmF-plsX-fabHDG-acpP-fabF acpPp
+dadAX dadAX dadAp1
+dadAX dadAX dadAp3
+garPLRK-rnpB garPLRK-rnpB garPp
+rnc-era rnc-era-recO-pdxJ-acpS rncp
+rnc-era-recO-pdxJ-acpS rnc-era-recO-pdxJ-acpS rncp
+pdxJ-acpS rnc-era-recO-pdxJ-acpS pdxJp
+hupA hupA hupAp
+hupB hupB hupBp1
+hupB hupB hupBp2
+hupB hupB hupBp3
+hupB hupB hupBp4
+xseA xseA xseAp
+cfa cfa cfap1
+cfa cfa cfap2
+mazEFG relA-mazEFG mazEp1
+mazEFG relA-mazEFG mazEp2
+acrAB acrAB acrAp
+poxB hcp-hcr-poxB-ltaE-ybjT poxBp
+xthA xthA xthAp
+rnpB garPLRK-rnpB rnpBp
+adhE adhE adhEp2
+nac nac nacp
+phoPQ phoPQ phoPp1
+pqiABC pqiABC pqiAp2
+rpsA-ihfB cmk-rpsA-ihfB rpsAp1
+phoPQ phoPQ phoPp2
+xylAB xylAB xylAp
+hlyE hlyE hlyEp
+rnb rnb rnbp1
+rnb rnb rnbp2
+glnK-amtB glnK-amtB glnKp
+xylR xylFGHR xylRp
+yiaKLMNO-lyx-sgbHUE yiaKLMNO-lyxK-sgbHUE yiaKp
+paaXY paaXY paaXp
+xylFGHR xylFGHR xylFp
+dcuA aspA-dcuA dcuAp
+aroP aroP aroPp2
+polA polA polAp
+nikR nikABCDER nikRp
+hyfABCDEFGHIJR-focB hyfABCDEFGHIJR-focB hyfAp
+grxA grxA grxAp
+mutS mutS mutSp
+nikABCDER nikABCDER nikAp1
+serC serC-aroA serCp
+serC-aroA serC-aroA serCp
+cedA cedA cedAp
+zraP zraP zraPp
+zraSR zraSR zraSp
+hdeAB-yhiD hdeAB-yhiD hdeAp
+rsd rsd rsdp1
+rsd rsd rsdp2
+pfkA pfkA pfkAp2
+mlc mlc-ynfK mlcp1
+mlc-ynfK mlc-ynfK mlcp2
+cydDC cydDC cydDp
+yjeFE-amiB-mutL-miaA-hfq-hflXKC nnr-tsaE-amiB-mutL-miaA-hfq-hflXKC yjeFp1
+yjeFE-amiB-mutL-miaA-hfq-hflXKC nnr-tsaE-amiB-mutL-miaA-hfq-hflXKC yjeFp2
+yjeFE-amiB-mutL-miaA-hfq-hflXKC nnr-tsaE-amiB-mutL-miaA-hfq-hflXKC yjeFp3
+adiA adiA adiAp
+adiY adiY adiYp
+cpxPQ cpxPQ cpxPp
+ldcC ldcC ldcCp
+sfsA-dksA sfsA-dksA-gluQ sfsAp
+znuA znuA znuAp
+ynfEFGH-dmsD ynfEFGH-dmsD ynfEp
+tisB tisB tisBp
+aceBAK aceBAK aceBp
+araC araC araCp
+argCBH argCBH argCp
+argF argF argFp
+argI argI argIp
+aroF-tyrA aroF-tyrA aroFp
+aroG aroG aroGp
+aroH aroH aroHp1
+aroL-yaiA-aroM aroL-yaiA-aroM aroLp
+aroP aroP aroPp1
+bioA bioA bioAp
+bioBFCD bioBFCD bioBp
+fhuACDB fhuACDB fhuAp
+glnLG glnALG glnLp
+glpTQ glpTQ glpTQp
+katG katG katGp
+metF metF metFp
+metH metH metHp
+narGHJI narGHJI narGp
+narK narK narKp1
+nirBDC-cysG nirBDC-cysG nirBp
+ompF ompF ompFp
+oxyR oxyR oxyRp
+phoA-psiF phoA-psiF phoAp
+phoBR phoBR phoBp
+purC purC purCp
+purHD purHD purHp
+purL purL purLp
+purMN purMN purMp
+purR purR purRp
+pyrC pyrC pyrCp
+pyrD pyrD pyrDp
+recAX recAX recAp
+recA recAX recAp
+sodA sodA sodAp
+ssb ssb ssbp3
+trpR trpR trpRp
+uvrA uvrA uvrAp
+uvrB uvrB uvrBp2
+ada-alkB ada-alkB adap
+ansB ansB ansBp2
+fadBA fadBA fadBp
+phoE phoE phoEp
+tyrB tyrB tyrBp
+malT malT malTp
+fabA fabA fabAp
+mtr mtr mtrp2
+fumA fumAC fumAp
+fumAC fumAC fumAp
+ebgAC ebgAC ebgAp
+fucAO fucAO fucAp
+gyrA gyrA gyrAp
+dsdC dsdC dsdCp
+fdhF fdhF fdhFp
+lysA lysA lysAp
+lysR lysR lysRp
+malI malI malIp
+metC metC metCp
+glyA glyA glyAp
+nadB nadB nadBp
+pncB pncB pncBp
+prs lolB-ispE-prs prsp
+sdaA sdaA sdaAp
+mreBCD mreBCD mreBp1
+mreB mreBCD mreBp1
+rplM-rpsI rplM-rpsI rplMp
+rpsMKD-rpoA-rplQ rpsMKD-rpoA-rplQ rpsMp2
+feaR feaR feaRp
+galP galP galPp
+bdm-sra bdm-sra bdmp
+rirA-rfaQGPSBIJYZ-waaU rirA-waaQGPSBOJYZU rirAp
+rfaQGPSBIJYZ-waaU rirA-waaQGPSBOJYZU waaQp
+kdtA-coaD waaA-coaD waaAp1
+waaA waaA-coaD waaAp1
+waaA waaA-coaD waaAp2
+istR-2 istR istR-2p
+istR-1 istR istR-1p
+hcaR hcaR hcaRp
+hcaEFCBD hcaEFCBD hcaEp
+prpR prpR prpRp
+moaBCDE moaABCDE moaBp
+cysG nirBDC-cysG cysGp1
+yggN yggN yggNp2b
+cysG nirBDC-cysG cysGp2
+rpiA rpiA rpiAp
+tktB talA-tktB tktBp
+ves ves vesp
+agp agp agpp
+glk glk glkp
+galU galU galUp
+amyA amyA amyAp
+bglX bglX bglXp
+sthA sthA sthAp
+evgAS evgAS evgAp2
+evgAS evgAS evgAp1
+polB polB polBp
+allA allA allAp
+allS allS allSp
+yhhY yhhY yhhYp
+nohA-ydfN-tfaQ nohAp
+fhuF fhuF fhuFp
+otsBA otsBA otsBp2
+yrbL yrbL yrbLp
+borD borD borDp
+rstAB rstAB rstAp
+slyB slyB slyBp1
+slyB slyB slyBp2
+nagA nagBAC-umpH nagAp
+hemL hemL hemLp
+pagP pagP pagPp
+ybjG ybjG ybjGp
+ompT envY-ompT ompTp
+rpsT rpsT rpsTp1
+rpsT rpsT rpsTp2
+lsrACDBFG-tam lsrACDBFG-tam lsrAp
+gatR_2 gatR gatR_2p
+tpiA tpiA tpiAp1
+pgk-fbaA epd-pgk-fbaA pgkp1
+pgk epd-pgk-fbaA pgkp1
+aspS aspS aspSp
+talA-tktB talA-tktB talAp2
+yiaG yiaG yiaGp
+ytfK ytfK ytfKp
+ansP ansP ansPp1
+ansP ansP ansPp2
+pheP pheP phePp
+msyB msyB msyBp
+artPIQM artPIQM artPp
+artJ artJ artJp
+pfkB pfkB pfkBp2
+gloA nemRA-gloA gloAp
+ybjP ybjP ybjPp
+yggE yggE yggEp1
+yggE yggE yggEp2
+metE metE metEp
+metR metR metRp1
+metR metR metRp2
+yebC-ruvC nudB-yebC-ruvC yebCp
+ruvC nudB-yebC-ruvC ruvCp
+nudB-yebC-ruvC nudB-yebC-ruvC nudBp
+yebB yebB yebBp2
+yebB yebB yebBp1
+rimJ rimJ rimJp
+dut-slmA dut-slmA dutp
+lolB-ispE-prs lolB-ispE-prs lolBp
+yehF yehF yehFp
+gor gor gorp
+mntH mntH mntHp
+yacC-speED yacC-speED yacCp
+rpsP-rimM-trmD-rplS rpsP-rimM-trmD-rplS rpsPp
+gcl-hyi-glxR-ybbVW-allB-ybbY-glxK gcl-hyi-glxR-ybbW-allB-ybbY-glxK gclp
+allDC-ylbA allDCE allDp
+rob rob robp
+mdtABCD-baeSR mdtABCD-baeSR mdtAp
+mglAC mglBAC mglAp
+dhaR dhaR dhaRp
+dhaKLM dhaKLM dhaKp
+glnQ glnHPQ glnQp
+acrD acrD acrDp
+ydjM ydjM ydjMp
+insK insK insKp
+dinQ dinQ dinQp
+recN recN recNp
+cpxRA cpxRA cpxRp
+tsr tsr tsrp1
+narK narK narKp2
+zinT zinT zinTp
+acrR acrR acrRp
+ldtB ldtB ldtBp
+mltF mltF mltFp
+fliE fliE fliEp
+rtcR rtcR rtcRp
+acrEF acrEF acrEp
+dcuSR dcuSR dcuSp
+bssS bssS bssSp1
+bssS bssS bssSp2
+ldhA ldhA ldhAp
+ybbN cnoX ybbNp1
+pcnB-folK pcnB-folK pcnBp1
+pcnB-folK pcnB-folK pcnBp2
+rssB rssAB rssBp
+rssAB rssAB rssAp
+cobUST cobUST cobUp1
+cobUST cobUST cobUp2
+bcsBZ bcsABZC bcsBp
+yfeKS yfeKS yfeKp
+yfgCD bepA-yfgD bepAp1
+bamB-der bamB-der bamBp
+qseBC qseBC qseBp2
+recC ppdAB-ygdB-ppdC-recC recCp
+infA infA-serW infAp2
+infA infA-serW infAp1
+bamD bamD bamDp2
+dsbC-recJ-prfB xerD-dsbC-recJ-prfB-lysS dsbCp2
+htrG-cca ygiM-cca ygiMp2
+qseBC qseBC qseBp1
+yraP yraP yraPp2
+greA greA greAp2
+lptB-rpoN-hpf-ptsN-yhbJ yrbG-kdsDC-lptCAB-rpoN-hpf-ptsN-rapZ-npr lptBp
+flgAMN flgAMN flgAp
+flgBCDEFGHIJ flgBCDEFGHIJ flgBp
+yecR yecR yecRp
+yejO yejO yejOp
+bamA-hlpA-lpxD-fabZ-lpxAB-rnhB-dnaE bamA-skp-lpxD-fabZ-lpxAB-rnhB-dnaE bamAp2
+ybfHG ybfG ybfHp
+lpp lpp lppp2
+spy spy spyp
+flhBAE flhBAE flhBp
+fliFGHIJK fliFGHIJK fliFp
+fliE fliE fliEp1
+fliFGHIJK fliFGHIJK fliFp1
+gltIJKL-sroC gltI-sroC-gltJKL gltIp1
+malQ malPQ malQp
+yhjJ yhjJ yhjJp
+yieEF yieEp
+plsB plsB plsBp
+essD-ybcS-rzpD essD-rrrD-rzpD essDp
+rutR rutR rutRp
+narWV narZYWV narWp
+ydhIJK ydhIJK ydhIp
+lhr rnt-lhr lhrp
+rnlB rnlAB rnlBp
+gspAB gspAB gspAp4
+yicJI yicJI yicJp
+ahpF ahpCF ahpFp
+ftnB ftnB ftnBp
+ytfE ytfE ytfEp
+ygbA ygbA ygbAp
+tehAB tehAB tehAp
+ybgIJKL-nei ybgI-pxpBCA-nei ybgIp1
+ybgIJKL-nei ybgI-pxpBCA-nei ybgIp2
+ydgK-rsxABCDGE-nth ydgK-rsxABCDGE-nth ydgKp
+rsxABCDGE-nth ydgK-rsxABCDGE-nth rsxAp
+ascFB ascFB ascFp
+dnaTC-yjjA yjjB-dnaTC-yjjA dnaTp
+dnaTC yjjB-dnaTC-yjjA dnaTp
+feoABC feoABC feoAp
+glyQS glyQS glyQp
+hipBA hipBA hipBp
+ribF-ileS-lspA-fkpB-ispH ribF-ileS-lspA-fkpB-ispH ribFp
+rimP-nusA-infB metY-rimP-nusA-infB-rbfA-truB-rpsO-pnp rimPp
+yhdT-panF-prmA yhdT-panF-prmA yhdTp
+thrS-infC thrS-infC-rpmI-rplT-pheMST-ihfA thrSp
+thrS-infC-rpmI-rplT-pheMST-ihfA thrS-infC-rpmI-rplT-pheMST-ihfA thrSp
+rplL rplKAJL-rpoBC rplLp
+fbaB fbaB fbaBp
+pgaABCD pgaABCD pgaAp
+tppB dtpA tppBp
+yciZT yciZT yciZp
+cysS cysS cysSp
+erpA erpA erpAp
+nfuA yhgH-nfuA nfuAp1
+ydiU ydiU ydiUp
+napFDAGHBC napFDAGHBC-ccmABCDEFGH napFp3
+nsrR-rnr-rlmB-yjfI nsrR-rnr-rlmB-yjfIJ nsrRp
+argA argA argAp
+appY appY appYp
+pepT pepT pepTp
+pitA pitA pitAp
+dcuD dcuD dcuDp2
+omrB omrB omrBp
+omrA omrA omrAp
+iraD ytiCD-idlP-iraD iraDp2
+yqjI nfeR yqjIp
+ysgA ysgA ysgAp
+ychO ychO ychOp
+dacC dacC dacCp
+ompX yliM-ompX ompXp2
+ompW ompW ompWp
+micC micC micCp
+trpS aroKB-damX-dam-rpe-gph-trpS trpSp
+pdxH-tyrS-pdxY pdxH-tyrS-pdxY pdxHp
+tyrS-pdxY pdxH-tyrS-pdxY tyrSp1
+yjjB-dnaTC-yjjA yjjB-dnaTC-yjjA yjjBp
+yjjB-dnaTC yjjB-dnaTC-yjjA yjjBp
+adrA dgcC adrAp
+allR allR allRp
+pepD pepD pepDp3
+aslB aslB aslBp
+yciGFE yciGFE yciGp
+yciG yciGFE yciGp
+bolA bolA bolAp2
+dicB-ydfDE-insD-intQ dicB-ydfDE-insD-7-intQ dicBp
+lsp-fkpB-ispH ribF-ileS-lspA-fkpB-ispH lspAp
+aroH aroH aroHp2
+rpmI-rplT thrS-infC-rpmI-rplT-pheMST-ihfA rpmIp
+norR norR norRp
+rraA menA-rraA rraAp
+relA-mazEF relA-mazEFG relAp2
+rne rne rnep1
+rne rne rnep2
+rne rne rnep3
+hemH hemHp
+pitB pitB pitBp
+smf smf smfp
+def-fmt def-fmt defp
+ppdAB-ygdB-ppdC-recC ppdAB-ygdB-ppdC-recC ppdAp
+ygbK ygbJK ygbKp
+modABC modABC modAp1
+ynjH ynjH ynjHp
+yecF yecF yecFp
+yjcS yjcS yjcSp
+fliDST fliDST fliDp1
+yhiL yhiLp
+tomB-hha tomBp1
+yccA yccAp
+ldtC ycfSp
+efeU efeU_1p
+yebE yebEp
+dgcZ dgcZp
+ftnB ftnB ftnBp2
+yqjA-mzrA yqjA-mzrA yqjAp1
+hslJ hslJp
+yjbE yjbEFGH yjbEp1
+yjbEFGH yjbEFGH yjbEp1
+nlpA nlpA nlpAp
+mtr mtr mtrp1
+yrbG-kdsD yrbG-kdsDC-lptCAB-rpoN-hpf-ptsN-rapZ-npr yrbGp
+yrbG-kdsDC-lptCAB yrbG-kdsDC-lptCAB-rpoN-hpf-ptsN-rapZ-npr yrbGp
+kdsC-lptCAB yrbG-kdsDC-lptCAB-rpoN-hpf-ptsN-rapZ-npr kdsCp1
+lptAB yrbG-kdsDC-lptCAB-rpoN-hpf-ptsN-rapZ-npr lptAp1
+rseX rseX rseXp
+gspCDEFGHIJKLMO gspCp3
+gspCDEFGHIJKLMO gspCp2
+gspCDEFGHIJKLMO gspCp1
+gspAB gspAp3
+gspAB gspAp1
+gspAB gspAp2
+fadE fadE fadEp
+iraP iraPp1
+dnaX dnaXp
+relBE-hokD relBE-hokD relBp
+ycaR-kdsB ycaRp
+mreBCD mreBCD mreBp2
+mreB mreBCD mreBp2
+mreBCD mreBCD mreBp3
+mreB mreBCD mreBp3
+rydC rydC rydCp
+mtn-btuF-yadS mtnp
+dgt dgtp1
+dgt dgt dgtp2
+ileS-lspA-fkpB-ispH ribF-ileS-lspA-fkpB-ispH ileSp1
+ileS-lspA-fkpB-ispH ribF-ileS-lspA-fkpB-ispH ileSp2
+crp crp crpp3
+crp crp crpp2
+dapB dapB dapBp2
+cyaA cyaA cyaAp1
+cyaA cyaA cyaAp2
+dapE-ypfN yffB-dapE-ypfN dapEp
+yffB-dapE-ypfN yffB-dapE-ypfN yffBp
+hypF hydN-hypF hypFp1
+hypF hydN-hypF hypFp2
+hypF hydN-hypF hypFp3
+yahA pdeL pdeLp1
+yahA pdeL pdeLp2
+eno pyrG-eno enop1
+eno pyrG-eno enop2
+eno pyrG-eno enop3
+hchA hchA hchAp
+hchA hchA hchAp2
+secE-nusG secE-nusG secEp
+micA micA micAp
+rybB rybB rybBp
+yhjA ccp yhjAp
+sgrST-setA sgrST-setA sgrSp
+sgrR-sroA-thiBPQ sgrRp
+alaC alaC alaCp
+sraB sraB psrDp
+rprA rprA rprAp
+ryeA ryeA ryeAp
+nepI nepI nepIp
+ldrD ldrD ldrDp
+rdlD rdlDp
+apt aptp
+hisJQMP argT-hisJQMP hisJp
+sraG sraG sraGp
+glmZ glmZ glmZp
+ryjA ryjA ryjAp
+symE symE symEp
+symR symR symRp
+ohsC ohsC ohsCp
+shoB shoB shoBp
+ryfD ryfD ryfDp
+ryjB ryjB ryjBp
+sroA sgrR-sroA-thiBPQ sroAp
+chiX chiX chiXp
+ryeB sdsR sdsRp
+glmY glmY glmYp1
+sroH sroH sroHp
+rcnAB rcnAB rcnAp
+rcnR rcnRp
+yibD waaH yibDp1
+nrdR-ribDE-nusB-thiL-pgpA nrdR-ribDE-nusB-thiL-pgpA nrdRp
+sbcDC sbcDp
+csgDEFG csgDEFG csgDp2
+ychH ychH ychHp
+dcuR dcuSR dcuRp
+umpG-pcm umpG-pcm surEp2
+mraW-ftsLI-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC mraZ-rsmH-ftsLI-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC mraWp1
+ftsLI-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC mraZ-rsmH-ftsLI-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC ftsLp1
+ftsLI-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC mraZ-rsmH-ftsLI-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC ftsLp2
+ftsK ftsK ftsKp1
+ftsK ftsK ftsKp2
+arcZ arcZ arcZp
+yeaR-yoaG yeaRp
+sohA-yhaV prlF-yhaV sohAp
+yggG loiP loiPp
+hcp-hcr hcp-hcr-poxB-ltaE-ybjT hcpp2
+wzbc wza-wzb-wzc-wcaAB wzap2
+yiaKLMNO-lyx-sgbHUE yiaKLMNO-lyxK-sgbHUE yiaKp2
+clpX-lon clpPX-lon clpXp
+chaC chaBC chaCp
+potFGHI potFGHI potFp2
+rpoD rpsU-dnaG-rpoD rpoDp4
+nagC nagBAC-umpH nagCp1
+nagC nagBAC-umpH nagCp2
+ileS-lspA-fkpB-ispH ribF-ileS-lspA-fkpB-ispH ileSp3
+can can canp
+ribE-nusB-thiL-pgpA nrdR-ribDE-nusB-thiL-pgpA ribEp
+ydhQ ydhQ ydhQp
+narP narP narPp
+pncC pncCp
+glnS glnS glnSp2
+phoPQ phoPQ phoPp3
+ygbF casABCDE12 ygbFp
+yhdN-zntR yhdN-zntR yhdNp
+prlC-yhiQ prlC-rsmJ prlCp
+ybeD-lipB ybeD-lipB ybeDp
+ybeZYX-lnt ybeZYX-lnt ybeZp
+yceJI yceJI yceJp
+lapAB lapAB-pyrF-yciH lapAp1
+yciSM-pyrF-yciH lapAB-pyrF-yciH lapAp1
+ycjXF-tyrR ycjXF-tyrR ycjXp
+holC-valS holC-valS holCp
+creABC creABCD creAp2
+nfuA yhgH-nfuA nfuAp2
+hslR-hslO yrfG-hslRO hslRp
+rnlA rnlAB rnlAp
+rrsA-ileT-alaT-rrlA-rrfA rrsA-ileT-alaT-rrlA-rrfA rrsAp2
+rrsE-gltV-rrlE-rrfE rrsE-gltV-rrlE-rrfE rrsEp2
+hepA rapA-rluA hepAp2
+yafDE yafDE yafDp
+xerD-dsbC-recJ xerD-dsbC-recJ-prfB-lysS xerDp
+clpPX clpPX-lon clpPp3
+rdgB-yggW yggSTU-rdgB-hemW rdgBp
+dcd udk-dcd dcdp
+trkA trkAp
+yehS yehSp
+mnmA mnmA mnmAp
+yfcD yfcD yfcDp
+elaB elaB elaBp
+hda hda hdap
+folX-yfcH folX-yfcH folXp
+yggDC cmtBA-yggPF-fumE-yggC fumEp
+tam lsrACDBFG-tam tamp
+tsaB-yeaY tsaB-yeaY tsaBp
+yfhL yfhL yfhLp
+deoR deoR deoRp
+dksA-yadB sfsA-dksA-gluQ dksAp1
+yacG coaE-zapD-yacG yacGp
+yhjG yhjG yhjGp
+ydeQ ydeQ ydeQp
+ydbD ydbD ydbDp
+yfcE yfcE yfcEp
+aspU aspU aspUp
+pgsA pgsA pgsAp
+pdxY pdxH-tyrS-pdxY pdxYp
+yhfK yhfK yhfKp
+insN-2 insO insNp
+yegW yegW yegWp
+pspE pspABCDE pspEp
+yajO xseB-ispA-dxs-yajO yajOp
+nrdG nrdDG nrdGp
+fucR fucPIKUR fucRp
+aceK aceBAK aceKp
+yadC yadMLKC yadCp
+glxK gcl-hyi-glxR-ybbW-allB-ybbY-glxK glxKp
+gcvP gcvTHP gcvPp
+rrfG rrsG-gltW-rrlG-rrfG rrfGp
+cysH cysJIH cysHp
+argQ serV-argVYZQ argQp
+cadA cadBA cadAp
+csgC csgBAC csgCp
+tcyJ fliAZ-tcyJ tcyJp
+ybjN ybjC-nfsA-rimK-ybjN ybjNp
+dhaM dhaKLM dhaMp
+tufA rpsLG-fusA-tufA tufAp1
+ubiX cvpA-purF-ubiX ubiXp
+yjfKLMC yjfKLMC yjfKp
+yafNOP dinB-yafNOP yafNp
+yjiXA yjiXA yjiXp
+lacYA lacZYA lacYp
+rfbACX rfbBDACX rfbAp
+rrlH-rrfH rrsH-ileV-alaV-rrlH-rrfH rrlHp
+rfaZ-waaU rirA-waaQGPSBOJYZU waaZp
+selD-topB ydjA-selD-topB selDp1
+rrlB-rrfB rrsB-gltT-rrlB-rrfB rrlBp
+caiCDE caiTABCDE caiCp
+rrlE-rrfE rrsE-gltV-rrlE-rrfE rrlEp
+nuoMN nuoABCEFGHIJKLMN nuoMp
+mreCD mreBCD mreCp
+rrlA-rrfA rrsA-ileT-alaT-rrlA-rrfA rrlAp
+ykfGH-yafW-ykfI yafY-ykfBF-yafX-ykfGH-yafW-ykfI ykfGp
+glcBA glcDEFGBA glcBp
+deoA deoCABD deoAp
+menD-yfbB-menBCE menFDHBCE menDp
+rutR rutR rutRp2
+safA-ydeO safA-ydeO safAp
+yaiA-aroM aroL-yaiA-aroM yaiAp
+alsBACE alsRBACE alsBp
+hfq-hflXKC nnr-tsaE-amiB-mutL-miaA-hfq-hflXKC hfqp2
+tyrV-tpr tyrTV-tpr tyrVp
+pspBCDE pspABCDE pspBp
+tdcBCDEFG tdcABCDEFG tdcBp
+phnLMNOP phnCDEFGHIJKLMNOP phnLp
+yjiT yjiTp
+glnW-metU-glnVX metT-leuW-glnUW-metU-glnVX glnWp
+raiA raiAp
+yafU yafU yafUp
+yehR yehRp
+ydeO safA-ydeO ydeOp
+rpmE rpmE rpmEp
+yiaA yiaAp
+yccE yccEp
+yrdA yrdA yrdAp
+ydeP ydeP ydePp
+yjhIHG yjhIp
+yfjV ypjMp
+yrfG-hslRO yrfGp
+yibA rhsA-yibA yibAp
+frc yfdX-frc-oxc-yfdVE frcp
+yfdX yfdX-frc-oxc-yfdVE yfdXp
+casDE-ygbTF casABCDE12 casDp
+osmF-yehYXW osmF-yehYXW osmFp2
+hspQ hspQp
+mutL-miaA-hfq-hflXKC nnr-tsaE-amiB-mutL-miaA-hfq-hflXKC mutLp2
+mutL-miaA-hfq-hflXKC nnr-tsaE-amiB-mutL-miaA-hfq-hflXKC mutLp1
+miaA-hfq-hflXKC nnr-tsaE-amiB-mutL-miaA-hfq-hflXKC miaAp2
+miaA-hfq-hflXKC nnr-tsaE-amiB-mutL-miaA-hfq-hflXKC miaAp1
+hfq-hflXKC nnr-tsaE-amiB-mutL-miaA-hfq-hflXKC hfqp1
+hfq-hflXKC nnr-tsaE-amiB-mutL-miaA-hfq-hflXKC hfqp3
+mraZ-rsmH-ftsLI-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC lpxCp1
+ybhC ybhCp
+ybjQ-amiD ybjQp
+hcp-hcr-poxB-ltaE-ybjT ltaEp
+ybjX ybjX ybjXp
+trxB trxBp
+serS serSp
+ycbJ ycbJp
+ldtD ldtDp
+ycbK-gloC ycbKp
+asnS asnSp
+pepN pepN pepNp
+matP matP matPp
+mgsA mgsAp
+wrbA-yccJ wrbAp
+ymdAB-clsC clsCp
+solA-yceO solAp
+bssS bssSp
+rne rnep4
+rpmF-plsX-fabHDG yceD-rpmF-plsX-fabHDG-acpP-fabF rpmFp
+iraM iraMp
+bluR bluRp
+ycgL ycgLp
+fadR fadR fadRp2
+ycgB ycgB ycgBp
+ychJ ychJp
+yciI yciIp
+yciVOQ yciVp
+ymiC-acnA acnAp3
+fabI fabIp1
+puuDRCBE puuDRCBE puuDp
+ycjG ycjG ycjGp
+ynaI ynaI ynaIp
+uspE uspEp
+zntB ydaNp
+uspF uspFp
+trg trgp1
+ydcR ydcRp
+yncE yncE yncEp
+yncG yncGp
+ydfG ydfGp
+ydfH ydfHp
+gnsB gnsBp
+ynfB-speG ynfBp
+tqsA tqsA tqsAp
+ydgA ydgAp
+hdhA hdhAp
+gstA gstAp
+pdxH-tyrS-pdxY tyrSp2
+sodC sodCp
+pykF pykFp1
+pykF pykFp2
+ydiP ydiP ydiPp
+yniB yniB yniBp
+hxpB yniCp
+ynjE ynjEp
+mipA mipAp
+yeaGH yeaGp2
+yeaL yeaL yeaLp
+yobF-cspC yobFp2
+ptrB ptrBp
+pykA pykAp1
+pykA pykAp2
+aspS aspSp1
+insAB-5A-5B-5 insA-5p
+dcyD-tcyLN dcyDp
+isrC-flu flup1
+isrC-flu flup2
+sbmC sbmCp1
+sbmC sbmCp2
+yeeED yeeEp
+galF galF galFp
+yegH yegH yegHp
+gatYZABCD gatZp
+yegTUV yegTp
+thiMD thiMp
+metG metGp
+preTA preTA preTp
+mepS mepSp
+yfaY yfaYp
+yfcZ yfcZp
+mlaA mlaA mlaAp
+glk glkp1
+ligA-ypeB ligAp
+cysK cysKp2
+pdxK pdxK pdxKp1
+ucpA ucpAp1
+ucpA ucpAp2
+talA-tktB talAp
+bepA-yfgD bepAp2
+yfgM yfgMp1
+yfgM yfgMp2
+yfgM yfgMp3
+yfhM-pbpC yfhMp
+sseA sseA sseAp
+ffh ffhp
+ygaM ygaMp
+csrA csrAp3
+nlpD-rpoS rpoSp1
+nlpD-rpoS rpoSp2
+nlpD-rpoS rpoSp3
+nlpD-rpoS rpoSp4
+pyrG-eno enop6
+pyrG-eno pyrGp
+rlmD rlmDp
+queF queFp
+ygeV ygeV ygeVp
+sdhE-ygfX cptBp
+ygfZ ygfZ ygfZp
+mscS mscSp
+tktA tktAp1
+gss gssp
+yghU yghU yghUp
+yghB yghBp
+yqhD-dkgA dkgAp
+sroG-ribB sroG-ribB ribBp
+ebgR ebgRp
+ygjR ygjRp
+sstT sstTp
+yhbTS yhbTp1
+yhbTS yhbTp2
+yhbY yhbY yhbYp
+arcB arcB arcBp
+yhcB yhcBp
+degQS degQp1
+mscL mscLp
+rpsMKD-rpoA-rplQ rpsMp1
+yheO-tusDCB yheOp1
+yheO-tusDCB yheOp2
+prkB prkBp
+tsgA tsgAp
+mrcA mrcA mrcAp
+rlmJ rlmJp
+yiaF yiaF yiaFp
+avtA avtAp
+yibF yibFp
+gpmM-envC-yibQ gpmMp
+dfp dfp dfpp
+yicH yicHp
+asnC-mioC-mnmG-rsmG mioCp
+ravA-viaA ravAp
+kup kupp1
+kup kupp2
+kup kupp3
+ppiC ppiCp
+yigI yigIp
+fre frep1
+fre frep2
+pepQ-yigZ-trkH-hemG pepQp
+yihD yihDp
+yihXY-dtd-yiiD yihXp
+tpiA tpiAp2
+menA-rraA menAp1
+yjbB yjbBp
+dgkA dgkAp
+qorA qorp
+dnaB dnaBp
+alr alrp1
+alr alrp2
+yjbQR yjbQp
+dsbD-yjdC yjdCp
+groSL groLp1
+groSL groLp2
+groSL groLp3
+yjeI yjeIp
+epmA epmAp
+rpsF-priB-rpsR-rplI rpsF-priB-rpsR-rplI rpsFp
+ytfB ytfB ytfBp
+cycA cycAp
+ppA ppa ppap
+pmbA pmbAp
+ridA ridAp
+yjgD rraB rraBp2
+holD-rimI-yjjG holDp
+yjjQ-bglJ yjjQ-bglJ yjjQp
+yjjP yjjP yjjPp
+secG-leuU secG-leuU secGp1
+secG-leuU secG-leuU secGp2
+leuO leuO leuOp
+cspE cspE cspEp2
+cspE cspE cspEp1
+argO argOp
+ykgMO ykgMp
+yoaE yoaE yoaEp
+talB talB talBp
+yabI yabIp
+mraZ-rsmH-ftsLI-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC lpxCp2
+acnB acnBp2
+yacL yacLp
+mrcB mrcBp
+rpsB-tsf tff-rpsB-tsf rpsBp
+ispU uppS ispUp1
+uppS ispUp2
+gmhB gmhBp
+yafV yafV yafVp
+ykfA-yafZ yafZp
+ecpBCDE matCp1
+ecpBCDE matCp2
+yahO yahO yahOp
+ampH ampH ampHp1
+ampH ampHp2
+iraP iraPp2
+proC proC proCp
+ppnP yaiEp
+brnQ-proY brnQp
+yajQ yajQ yajQp
+yajR yajRp
+tig tigp1
+tig tigp3
+tesB tesB tesBp
+ylaC ylaCp
+acrAB acrBp
+mscK kefAp
+ybaL ybaLp
+gcl-hyi-glxR-ybbW-allB-ybbY-glxK ybbYp
+folD-ybcJ folDp
+entCEBAH ybdBp
+uspG uspG uspGp
+rna rnap
+lipA lipAp
+rsfS-rlmH-mrdAB-rlpA rsfAp
+ybeL ybeL ybeLp
+nadA-pnuC nadAp
+ybhQ ybhQ ybhQp
+iaaA-gsiABCD iaaAp
+rimO rimO rimOp
+gstB gstB gstBp
+citCDEFXG citCDEFXG citCp1
+marC marC marCp
+ydhYVWXUT ydhYVWXUT ydhYp
+artPIQM artPIQM artPp1
+artPIQM artPIQM artPp2
+artPIQM artPIQM artPp3
+ybgA-phr ybgA-phr ybgAp2
+gpt gpt gptp
+frsA frsA frsAp
+dksA-yadB sfsA-dksA-gluQ dksAp2
+panBC panBC panBp
+ecnB ecnAB ecnBp
+creD creABCD creDp
+tolC-ygiBC tolC-ygiBC tolCp4
+nemRA nemRA-gloA nemRp
+nemRA-gloA nemRA-gloA nemRp
+decR decRp
+yliM-ompX yliM-ompX yliMp
+cyaR cyaR cyaRp
+coaA coaA coaAp
+ssrS-ygfA ssrS-fau ssrSp1
+ssrS ssrS-fau ssrSp1
+ssrS-ygfA ssrS-fau ssrSp2
+ssrS ssrS-fau ssrSp2
+nadE nadEp
+lsrRK lsrRK lsrRp
+pstB-phoU pstSCAB-phoU pstBp
+yicC yicCp
+dinD dinDp
+yebG yebGp
+dinI dinIp
+hokE hokE hokEp
+ybfE ybfE ybfEp
+cho cho chop
+ydiV ydiVp
+gadEF-mdtEF mdtEp1
+mdtEF gadEF-mdtEF mdtEp2
+mdtEF gadEF-mdtEF mdtEp3
+cmr mdfA cmrp2
+tolC-ygiBC tolC-ygiBC tolCp1
+tolC-ygiBC tolC-ygiBC tolCp2
+tolC-ygiBC tolC-ygiBC tolCp3
+murR murRp
+murQP murQP-yfeW murQp1
+murQP murQP-yfeW murQp2
+sibA sibAp
+sibD sibDp
+sibE sibE sibEp
+sibC sibC sibCp
+sibB sibBp
+ycdT dgcT ycdTp
+folE-yeiB folEp
+gadW gadAXW gadWp1
+gadW gadAXW gadWp2
+yqaE-kbp yqaEp
+yqaE-kbp yqaE-kbp yqaEp
+luxS luxS luxSp2
+yefM-yoeB yefMp
+uvrB uvrB uvrBp1
+yegRZ yegRZ yegRp
+yojI yojIp
+gmk gmkp
+rpoZ-spoT-trmH-recG rpoZ-spoT-trmH-recG rpoZp
+yifL-dapF-yigA-xerC-yigB yifLp
+gadE gadEF-mdtEF gadEp3
+dinJ-yafQ dinJp
+puuAP puuA-ymjE-puuP puuAp
+fadR fadR fadRp
+yjeV yjeV yjeVp
+queG queG queGp
+ogt abgABT-ogt ogtp
+pldA pldAp
+pepA pepAp1
+pepA pepA pepAp2
+dinB-yafNOP dinB-yafNOP dinBp
+hicAB hicAp
+rnd rnd rndp
+tsaE-amiB-mutL-miaA-hfq-hflXKC nnr-tsaE-amiB-mutL-miaA-hfq-hflXKC tsaEp
+dsbG dsbGp
+ahpCF ahpCF ahpCp2
+blr blrp
+yrbN-deaD yrbN-deaD yrbNp
+mqsRA mqsRp
+pepA pepA pepAp3
+ppdD-hofBC ppdDp
+hofMNOP hofMp
+gadE-mdtEF gadEF-mdtEF gadEp4
+ydeJ ydeJ ydeJp
+ybdN ybdNp
+rfaYZ rirA-waaQGPSBOJYZU waaYp
+mdh mdh mdhp2
+uxaCA uxaCA uxaCp1
+exuT exuT exuTp1
+citCDEFXG citCDEFXG citCp2
+dpiBA dpiBA dpiBp
+dpiBA dpiBA dpiBp2
+chiP-ybfN chiPQ chiPp
+yddG yddGp
+yjjZ yjjZ yjjZp
+mepH mepHp
+bdcA bdcAp
+rfe-wzzE-wecBC-rffGHC-wecE-wzxE-wecF-wzyE-rffM rfep
+yeaE yeaEp
+mhpT mhpTp
+dkgB dkgBp
+grxD grxD grxD
+pgpC-tadA pgpCp
+yjcC pdeC yjcCp
+iraD ytiCD-idlP-iraD iraDp1
+azuC azuC azuCp
+ykgR ykgR ykgRp
+yobF-cspC yobF-cspC yobFp1
+rraB rraB rraBp1
+glmY glmY glmYp2
+yahE yahDEFG yahEp
+yaaU yaaUp
+nikABCDER nikABCDER nikAp2
+emrD emrDp
+yhjC yhjCp
+ygfK-ssnA ygfKp
+radD yejHp
+htpG htpG htpGp3
+flhDC flhDC flhDp2
+actP acs-yjcH-actP actPp
+rhaD rhaBAD rhaDp
+mqsRA mqsRp2
+xdhABC xdhAp2
+acrD acrD acrDp2
+greA greA greAp1
+ftnA ftnAp
+dsrA dsrA dsrAp
+fnrS fnrS fnrSp
+mgrR mgrR mgrRp
+mgtS mgtSp
+eptB eptBp
+selAB selAB selAp
+ydjA-selD-topB ydjA-selD-topB ydjAp
+selD-topB ydjA-selD-topB selDp2
+selC selCp
+ynjH ynjH ynjHp2
+crfC-yjcZ yjdAp2
+yjdA-yjcZ crfC-yjcZ yjdAp1
+oxyS oxyS oxySp
+ykfBF-yafX-ykfGH-yafW-ykfI yafY-ykfBF-yafX-ykfGH-yafW-ykfI ykfBp1
+ykfBF-yafX-ykfGH-yafW-ykfI yafY-ykfBF-yafX-ykfGH-yafW-ykfI ykfBp2
+hemL hemL hemLp1
+hemL hemL hemLp2
+ttdABT ttdABT ttdAp
+ttdR ttdR ttdRp
+rnlAB rnlAB rnlAp2
+rnlB rnlAB rnlBp2
+ycgZ-ymgA-ariR-ymgC ycgZ-ymgA-ariR-ymgC ycgZp
+casABCDE12 casAp
+yihI yihIp
+pfkA pfkA pfkAp1
+pgk epd-pgk-fbaA pgkp2
+pgk-fbaA epd-pgk-fbaA pgkp2
+pgk epd-pgk-fbaA pgkp3
+pgk-fbaA epd-pgk-fbaA pgkp3
+gpmA gpmA gpmAp2
+eno pyrG-eno enop4
+eno pyrG-eno enop7
+pykF pykF pykFp3
+glnD map-glnD-dapD glnDp
+yfgF pdeF yfgFp
+yqhD-dkgA yqhD-dkgA yqhDp
+fhuF fhuF fhuFp2
+rcsDB rcsDB rcsDp
+rcsB rcsDB rcsBp1
+rcsB rcsDB rcsBp2
+fadH fadHp
+yciE yciGFE yciEp
+yciCB yciCp
+pcnB-folk pcnB-folK pcnBp4
+rplU-rpmA rplU-rpmA-yhbE-obgE rplUp
+rplU-rpmA-yhbE-obgE rplU-rpmA-yhbE-obgE rplUp
+ibaG-murA ibaGp2
+mlrA mlrAp
+luxS luxS luxSp1
+glgBXCAP glgBXCAP glgBp
+glgAP glgBXCAP glgAp
+yqjH nfeF yqjHp
+pstCAB-phoU pstSCAB-phoU pstCp
+pstB-phoU pstSCAB-phoU pstBp1
+phoU pstSCAB-phoU phoUp
+uxaB uxaB uxaBp
+intS intS intSp
+yhiM yhiM yhiMp
+hdfR hdfR hdfRp
+iraM iraM iraMp2
+ade adeD adep
+tufA rpsLG-fusA-tufA tufAp2
+mhpR-lacI mhpR-lacI mhpRp1
+kdsC-lptCAB yrbG-kdsDC-lptCAB-rpoN-hpf-ptsN-rapZ-npr kdsCp2
+kdsC-lptCAB yrbG-kdsDC-lptCAB-rpoN-hpf-ptsN-rapZ-npr kdsCp3
+lptAB yrbG-kdsDC-lptCAB-rpoN-hpf-ptsN-rapZ-npr lptAp2
+yjbEFGH yjbEFGH yjbEp2
+grxB grxBp
+yccT yccT yccTp
+arrS arrS arrSp
+nadC nadCp
+ampDE ampDE ampD
+panD panD panDp
+yaeP-rof yaePp
+yaeQ-arfB-nlpE yaeQp
+yaiZ yaiZ yaiZp
+ybaQ ybaQ ybaQp
+qmcA-ybbJ qmcAp
+fetAB ybbLp
+mntR-ybiR mntRp
+ybiT ybiT ybiTp
+yccFS yccFp
+helD helD helDp
+ycfQ comR comRp
+ycfR bhsA bhsAp
+ydbK ydbK-ompN ydbKp
+ydbK-ompN ydbK-ompN ydbKp
+ydbJ ydbJ ydbJp
+ydcI ydcI ydcIp
+ynfT-ydfK ydfKp
+ynfM ynfMp
+ynjF ynjF ynjFp
+yeaP dgcP yeaPp
+dusC dusCp
+yohJK yohJp
+yeiW yeiWp
+yeiP yeiPp
+narQ narQp
+ypfM ypfMp
+yfgG yfgGp
+rppH-ptsP rppHp
+zupT zupT zupTp
+yraR yraRp
+aaeXAB aaeXp
+aaeR aaeR aaeRp
+bioH bioH bioHp
+yjcB yjcB yjcBp
+ghxP yjcDp
+plsB plsB plsBp2
+dgkA dgkA dgkAp1
+cbpAM cbpAM cbpAp2
+cra fruRp8
+yagK yagKp6
+ecpA matBp5
+ecpR matAp1
+rclABC rclABC ykgCp1
+fadM fadMp1
+ybiI ybiIp6
+mcbA mcbAp5
+ycdZ ycdZp4
+bhsA bhsAp9
+phoPQ phoQp5
+ycjY-ymjDC-mpaA ycjYp6
+ycjY-ymjDC-mpaA ycjY-ymjDC-mpaA ycjYp6
+ydbK-ompN ydbK-ompN ydbKp4
+ydeNM ydeNp
+ydeI ydeIp5
+ydfABC ydfAp8
+add addp6
+msrB msrBp6
+yoaC yoaCp1
+argS argSp
+sdiA sdiAp2
+sdiA sdiA sdiAp1b
+yedX yedXp
+alaA alaA-yfbR alaAp9
+alaA-yfbR yfbRp3
+pssA pssAp
+yqaE-kbp kbpp4
+ygeH ygeHp10
+arfA arfAp3
+ryhB ryhB yhhXp5
+tatABC tatABCD tatAp1
+tatABC tatABCD tatAp1
+yihV-csqR yihVp1
+adiC adiCp7
+yjhBC yjhBp2
+lgoR lgoRp4
+slt sltp7
+puuDRCBE puuCp
+treF treF treFp
+yciT yciZT yciTp
+yffO-yffP yffOP yffOp
+araFGH araFGH araFp2
+ppk-ppx ppk-ppx ppkp
+appY appY appYp2
+gpmM-envC-yibQ gpmM-envC-yibQ gpmMp2
+csrA csrA csrAp1
+csrA csrA csrAp2
+csrA csrA csrAp4
+csrA csrA csrAp5
+thiI thiI thiIp
+mntP mntPp
+rybA-mntS rybA-mntS rybAp
+higBA higBp
+azoR azoR azoRp
+ddpXABCDF ddpXABCDF ddpXp2
+ddpXABCDF ddpXABCDF ddpXp3
+sdiA sdiA sdiAp1
+sdiA sdiA sdiAp3
+sdiA sdiA sdiAp4
+metH metH metHp2
+pka yfiP-patZ pkap
+shiA shiA shiAp
+isrA mcaS mcaSp
+leuO leuO leuOp1
+leuO leuO leuOp2
+leuLABCD leuLABCD leuLp2
+asnC-mioC-mnmG-rsmG mnmGp
+fumC fumAC fumCp1
+gapA gapA-yeaD gapAp6
+gapA gapA-yeaD gapAp7
+rmf rmf rmfp
+lolA-rarA lolAp
+esrE esrE esrEp
+yjiY btsT yjiYp
+ypjB ypjBp
+yhjX yhjX yhjXp
+cspI cspIp2
+ibaG-murA ibaG-murA ibaGp
+dksA-gluQ sfsA-dksA-gluQ dksAp3
+bluF bluF bluFp
+ssrA ssrA ssrAp
+yfeCD yfeCD yfeCp
+acrZ acrZp
+dicC-ydfXW dicCp
+frr frr frrp
+leuE leuE leuEp
+agrA agrA agrAp
+agrB agrB agrBp
+cbpA-cbpM cbpAM cbpAp6
+cbpA-cbpM cbpAM cbpAp4
+ygfB-pepP-ubiHI ygfBp
+fabHDG yceD-rpmF-plsX-fabHDG-acpP-fabF fabHp
+ydcSTUV-patD ydcSTUV-patD ydcSp1
+ghoST ghoST ghoSp
+feaR feaR feaRp1
+feaR feaR feaRp2
+feaR feaR feaRp3
+feaB feaB feaBp1
+feaB feaB feaBp2
+tynA tynA tynAp1
+ssnA ygfK-ssnA ssnAp
+gcvR gcvR gcvRp2
+degQ degQS degQp
+degS degQS degSp
+yidL yidL yidLp
+ynjI ynjIp
+ynbABCD ynbAp
+ykiA ykiAp
+ygiZ ygiZ ygiZp
+yqhG yqhGp
+yecT yecTp
+sfsB sfsBp
+bglG bglGFB bglGp2
+yejG yejGp
+yejG yejG yejGp2
+mepS mepS mepSp2
+dcuA aspA-dcuA dcuAp2
+aroL-yaiA-aroM aroL-yaiA-aroM aroLp2
+serC serC-aroA serCp2
+ralA ralA ralAp
+lapAB lapAB-pyrF-yciH lapAp2
+pgpB pgpBp
+micL micL micLp
+yfbU-hxpA yfbUp
+grcA grcA grcAp2
+galK galETKM galKp
+relA relA-mazEFG relAp3
+relA relA-mazEFG relAp4
+yciW yciWp
+pflA pflA pflAp
+sutR sutRp
+yccR sxy sxyp
+plsX-fabHDG yceD-rpmF-plsX-fabHDG-acpP-fabF plsXp
+yeaM nimR nimRp
+nimT nimTp
+mrp mrpp
+metG metG metGp2
+yibN-grxC-secB-gpsA secBp
+yibN-grxC-secB-gpsA yibN-grxC-secB-gpsA yibNp
+lysO lysOp
+ascB ascFB ascBp
+ybhL ybhLp
+yfiR-dgcN-yfiB yfiRp
+ymiA-yciX ymiAp
+gfcA gfcAp
+bcsEFG bcsEp2
+yhjR yhjR yhjRp
+panD panD panDp2
+accA accA accAp2
+accBC accBC accBp2
+fabI fabI fabIp
+yajG yajG-ampG yajGp
+yajG-ampG yajG-ampG yajGp
+rplY rplVp
+bsmA bsmAp
+tcyP tcyP tcyPp
+sokB sokBp
+exuR exuR exuRp2
+cecR-ybhGFSR cecRp
+lgt-thyA lgt-thyA lgtp
+lgt lgt-thyA lgtp
+thyA lgt-thyA thyAp
+sdsN sdsN sdsNp2
+sdiA sdiA sdiAp2b
+sdsN sdsN sdsNp
+rpoE-rseABC rseD-rpoE-rseABC rpoEp1b
+rpoE-rseABC rseD-rpoE-rseABC rpoEp2b
+rpoE-rseABC rseD-rpoE-rseABC rpoEp4
+rpoE-rseABC rseD-rpoE-rseABC rpoEp5
+mlaFEDCB mlaFEDCB mlaFp1
+recQ recQp
+mlaFEDCB mlaFEDCB mlaFp3
+alaE alaE alaEp
+ymdAB-clsC ymdAp
+ymdAB-clsC ymdAB-clsC ymdAp
+ymdAB ymdAB-clsC ymdAp
+ymdAB-clsC ymdBp
+ymdB ymdAB-clsC ymdBp
+ydbK-ompN ompNp
+leuO leuO leuOp3
+serW infA-serW serWp1
+mlaFEDCB mlaFp2
+mdtJI mdtJp
+hemB hemBp
+purT purT purTp
+dgoRKADT dgoRp
+yihUTS yihUp1
+yihUTS yihUTS yihUp2
+xylE xylEp
+aroD ydiNB-aroD aroDp
+pta ackA-pta ptap
+yihUTS yihUTS yihUp3
+yihUTS yihUp4
+yihUTS yihUp5
+yihW yihV-csqR csqRp
+clpS clpS clpSp
