@@ -10,6 +10,11 @@ th, td {
   border: 1px solid #4f7cac;
 }
 
+td{
+background-color:#f1f1f1;
+
+}
+
 th {
   background-color: #46237a; /* morado*/
   color: white;

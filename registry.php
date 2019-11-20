@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="./css/style_text.css" />
     <link rel="stylesheet" type="text/css" href="./css/style_fields.css" />
     <link rel="stylesheet" type="text/css" href="./css/style_button.css" />
+   <link rel="icon" href="./imagenes/proEColi_slogo_trans.png" type="image/icon type">
+
     <script language = "JavaScript" >
 
       function validate(num) {

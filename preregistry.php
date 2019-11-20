@@ -1,5 +1,6 @@
 <html>
 <head>
+  <title> Download Dump </title>
   <meta charset="utf-8">
   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
   <link rel="stylesheet" href="./css/style_text.css">
@@ -8,6 +9,7 @@
   <link rel="stylesheet" href="./css/style_button.css">
   <link rel="stylesheet" href="./css/style_searchpre2.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="./imagenes/proEColi_slogo_trans.png" type="image/icon type">
 
 	<script>
 	$(document).ready(function() {
@@ -43,7 +45,7 @@
 
   <div id="resultadoBusqueda"></div>
   <br></br>
-  <a href='RegistryForm.sql' download style="visibility:hidden;" id="link">
+  <a href='script_mysql.sql' download style="visibility:hidden;" id="link">
   <button type="button" class="regbtn">Download Dump</button>
   </a>
 <br></br>

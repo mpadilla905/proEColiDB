@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="./css/style_preresult3.css">
 
 </head>
-<body>
+<body style="background-color:#616283;">
   <div id="header">
     <a href="home.php">
       <img id="logo" src="./imagenes/proEColi_logo_trans.png">

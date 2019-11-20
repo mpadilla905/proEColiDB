@@ -1,9 +1,10 @@
 <html>
 <head>
+  <title> About Us </title>
   <link rel="stylesheet" href="./css/style_logo.css">
   <link rel="stylesheet" href="./css/style_search.css">
   <link rel="stylesheet" href="./css/style_text.css">
-  <link rel="icon" href="./imagenes/pEClogo.png" type="image/icon type">
+  <link rel="icon" href="./imagenes/proEColi_slogo_trans.png" type="image/icon type">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/style_menuu.css">
   <link rel="stylesheet" href="./css/style_us.css">
@@ -23,7 +24,7 @@
           <button id="down_bt">Download Menu</button>
           <div id="sub_download">
             <a href="preregistry.php">Dump</a>
-            <a href="#">Data Base</a>
+            <a href="datasets_down.php">Data Base</a>
           </div>
         </div>
      </div>
@@ -35,8 +36,8 @@
     </form>
 </div>
 </div>
+<body style="background-color:#616283;">
 
-<body>
 <br>
 <div>
   <div class="content">

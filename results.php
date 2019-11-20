@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="./css/style_text.css">
     <link rel="stylesheet" href="./css/style_results2.css">
     <link rel="icon" href="./imagenes/proEColi_slogo_trans.png" type="image/icon type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  <body>
+<body style="background-color:#616283;">
     <div id="header">
       <a href="home.php">
         <img id="logo" src="./imagenes/proEColi_logo_trans.png">
@@ -80,7 +81,7 @@
               //$seq = str_split($res_campos['gene_sequence'], 50);
               $fasta = "> ECK12\t".$gene_id."\t".$res_campos['gene_posleft']."\t".$res_campos['gene_posright']."\n".$res_campos['gene_sequence']."";
               fwrite($seq_file, $fasta);
-              chmod('/var/www/html/seqs', 0777);
+//              chmod('/var/www/html/seqs', 0777);
               fclose($seq_file);
             }
 
