@@ -25,7 +25,7 @@
                 <button id="down_bt">Download Menu</button>
                 <div id="sub_download">
                   <a href="preregistry.php">Dump</a>
-                  <a href="#">Data Base</a>
+                  <a href="datasets_down.php">Data Base</a>
                 </div>
               </div>
            </div>
@@ -71,6 +71,17 @@
             // Obtener campos
             $res_campos = mysqli_fetch_array($consulta);
             $gene_id = $res_campos['gene_id'];
+
+
+            $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
+            $txt = "John Doe\n";
+            fwrite($myfile, $txt);
+            $txt = "Jane Doe\n";
+            fwrite($myfile, $txt);
+            fclose($myfile);
+
+            $seq = fopen($gene_id."seq.raw", "w") or die("Unable to open file!");
+
        ?>
            <tr>
              <td><b>Id:</b></td>
