@@ -1,0 +1,17 @@
+table {
+  border-collapse: collapse;
+  width: 20%;
+}
+
+th, td {
+  font-family: "Noto Sans", sans-serif;
+  text-align: left;
+  padding: 4px;
+}
+th {
+  background-color: #162521; /* a2 */
+  font-style: oblique;
+  color: white;
+}
+tr:hover {background-color: #c0e0de;}
+
