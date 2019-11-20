@@ -72,16 +72,26 @@
             $res_campos = mysqli_fetch_array($consulta);
             $gene_id = $res_campos['gene_id'];
 
+            $seq_file_name = "./seqs/".$gene_id."_seq.fa";
+            if( !file_exists($seq_file_name) ){
+              // if file doesnt exists
+              $seq_file = fopen($seq_file_name, "w") or die("Unable to open file!");
+              $fasta = "> ECK12\t".$gene_id."\t".$res_campos['gene_posleft']."\t".$res_campos['gene_posright']."\n".$res_campos['gene_sequence']."";
+              fwrite($seq_file, $fasta);
+              //chmod('/var/www/html/seqs', 0777);
+              fclose($seq_file);
+            }
 
-            $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
-            $txt = "John Doe\n";
-            fwrite($myfile, $txt);
-            $txt = "Jane Doe\n";
-            fwrite($myfile, $txt);
-            fclose($myfile);
+            $seq_file_name_raw = "./seqs/".$gene_id."_seq.raw";
+            if( !file_exists($seq_file_name_raw) ){
+              // if file doesnt exists
+              $seq_file = fopen($seq_file_name_raw, "w") or die("Unable to open file!");
+              fwrite($seq_file, $res_campos['gene_sequence']);
+              //chmod('/var/www/html/seqs', 0777);
+              fclose($seq_file);
+            }
 
-            $seq = fopen($gene_id."seq.raw", "w") or die("Unable to open file!");
-
+            // Construct tables
        ?>
            <tr>
              <td><b>Id:</b></td>
@@ -101,7 +111,7 @@
            </tr>
            <tr>
              <td><b>Sequence:</b></td>
-             <td>  </td>
+             <td><a href=<?= $seq_file_name; ?> download > sequence.fa </a> <a href=<?= $seq_file_name_raw; ?> download > sequence_raw.txt </a></td>
            </tr>
         <?php
             $syn = "";
@@ -156,7 +166,28 @@
             } else {
                 // Obtener campos por producto
                 while($res_campos = mysqli_fetch_array($consulta)){
+                      $prod_id = $res_campos['product_id'];
 
+                      // write sequence files
+                      $prod_seq_file_name = "./seqs/".$prod_id."_seq.fa";
+                      if( !file_exists($prod_seq_file_name) ){
+                        // if file doesnt exists
+                        $seq_file = fopen($prod_seq_file_name, "w") or die("Unable to open file!");
+                        $fasta = "> ECK12\t".$prod_id."\t".$res_campos['product_name']."\n".$res_campos['product_sequence']."";
+                        fwrite($seq_file, $fasta);
+                        //chmod('/var/www/html/seqs', 0777);
+                        fclose($seq_file);
+                      }
+                      $prod_seq_file_name_raw = "./seqs/".$gene_id."_seq.raw";
+                      if( !file_exists($prod_seq_file_name_raw) ){
+                        // if file doesnt exists
+                        $seq_file = fopen($prod_seq_file_name_raw, "w") or die("Unable to open file!");
+                        fwrite($seq_file, $res_campos['product_sequence']);
+                        //chmod('/var/www/html/seqs', 0777);
+                        fclose($seq_file);
+                      }
+
+                      // Construct tables
                   ?>
                       <tr>
                         <td><b>Id:</b></td>
@@ -168,7 +199,7 @@
                       </tr>
                       <tr>
                         <td><b>Sequence:</b></td>
-                        <td> </td>
+                        <td><a href=<?= $prod_seq_file_name; ?> download > prod_sequence.fa </a> <a href=<?= $prod_seq_file_name_raw; ?> download > prod_sequence_raw.txt </a></td>
                       </tr>
                       <tr>
                         <td><b> Cellular location: </b></td>
@@ -192,6 +223,7 @@
                          $a = 0;
                          while( $res_campos_syn = mysqli_fetch_array($consultaSyn) ){
                            if ($a == 0){
+                             // the first one goes wothout comma
                              $syn .= $res_campos_syn['object_synonym_name'];
                              $a++;
                            } else {
@@ -235,7 +267,7 @@
               } else {
                   // Obtener campos por producto
                   while($res_campos = mysqli_fetch_array($consulta)){
-
+                      // Construct table
                     ?>
                         <tr>
                           <td><b>Transcription Unit name:</b></td>
@@ -249,6 +281,7 @@
                           <td><b>Promoter Name: </b></td>
                           <td> <?= $res_campos['promoter_name']; ?> </td>
                         </tr>
+                        <tr><td> </td><td> </td></tr>
                    <?php
                  } // while
               } // else
