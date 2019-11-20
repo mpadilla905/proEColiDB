@@ -1,0 +1,31 @@
+#uspic{
+width:28%;
+  height:100%;
+  vertical-align:middle;
+border-right:50px solid #616283;
+border-left:50px solid #616283;
+
+}
+
+body{
+background-color:#616283;
+}
+
+.text{
+  position:relative;
+  float:right;
+  width:50%;
+  color:white;
+  border:50px solid #162521;
+}
+
+
+.content {
+  overflow: hidden;
+  background-color: #162521;
+  width:90%;
+  margin:auto;
+  height:60%;
+}
+
+

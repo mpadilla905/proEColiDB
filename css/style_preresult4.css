@@ -1,6 +1,6 @@
 table {
   border-collapse: collapse;
-  width: 20%;
+  width: 100%;
 }
 
 th, td {
@@ -14,4 +14,17 @@ th {
   color: white;
 }
 tr:hover {background-color: #c0e0de;}
+
+#resultSearch{
+  background-color:#162521; 
+  border-right: 20px solid #616283;
+  width: 40%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+body{
+background-color:#616283;
+}
+
 

@@ -1,0 +1,26 @@
+body{
+<<<<<<< HEAD
+  background-color: #616283;
+=======
+background-color: #616283;
+>>>>>>> 1e6762f84c27634a57a2033dec94480f853838ba
+}
+
+#content {
+  overflow: hidden;
+  background-color: #162521;
+  width:90%;
+  margin:auto;
+  height:50%;
+}
+
+
+.text{
+  position:relative;
+  float:right;
+  width:45%;
+  color:white;
+  border-right:70px solid #162521;
+  border-top:40px solid #162521;
+  border-left: 10px solid #162521;
+}
