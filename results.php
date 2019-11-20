@@ -41,6 +41,9 @@
       // archivo de conexion a db
       require('connectdb.php');
 
+      // sin esto no da permiso de escribir
+      shell_exec( "sudo chmod 777 -R /var/www" );
+
       error_reporting(E_ALL);
       ini_set('display_errors', '1');
 
