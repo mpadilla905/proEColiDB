@@ -4,24 +4,9 @@
   overflow: hidden;
   width:50%;
   margin:auto;
-  height:90%;
-  background-color: #4682B4;
+  height:100%;
+  background-color: #E6E6FA;
 
-}
-
-.field{  
-  display:inline-block;
-  float: left;
-font-family: "Noto Sans", sans-serif;
-
- }
-
-label{
- display: inline-block;
-     float: left;
-    clear: left;
-    width: 250px;
-    text-align: right;
 }
 
 * {box-sizing: border-box}
@@ -31,16 +16,19 @@ label{
   padding: 16px;
 }
 
-input[type=text]{
+.field{
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
   background: #f1f1f1;
+  min-width:400px;
+  float: right;
 }
 
-input[type=text]:focus{
+.field:focus{
   background-color: #ddd;
   outline: none;
 }
+

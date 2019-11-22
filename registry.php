@@ -5,11 +5,15 @@
     <title> Registry </title>
     <meta charset="utf-8">
     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-    <link rel="stylesheet" type="text/css" href="./css/style_registry2.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style_registry3.css" />
     <link rel="stylesheet" type="text/css" href="./css/style_text.css" />
     <link rel="stylesheet" type="text/css" href="./css/style_fields.css" />
     <link rel="stylesheet" type="text/css" href="./css/style_button.css" />
-   <link rel="icon" href="./imagenes/proEColi_slogo_trans.png" type="image/icon type">
+    <link rel="stylesheet" href="./css/style_search.css">
+    <link rel="stylesheet" href="./css/style_logo.css">
+    <link rel="stylesheet" href="./css/style_menuu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="./imagenes/proEColi_slogo_trans.png" type="image/icon type">
 
     <script language = "JavaScript" >
 
@@ -70,14 +74,43 @@
 
     </script>
 </head>
+
+<div id="header">
+<a href="home.php">
+<img id="logo" src="./imagenes/proEColi_logo_trans.png">
+</a>
+<br></br>
+<div id="menubar">
+    <div id="menu">
+    <button id="menu_bt">Menu </button>
+    <div id="sub_menu">
+      <a href="home.php">Home</a>
+      <a href="about_us.php">About Us</a>
+          <div id="download_menu">
+          <button id="down_bt">Download Menu</button>
+          <div id="sub_download">
+            <a href="preregistry.php">Dump</a>
+            <a href="datasets_down.php">Data Base</a>
+          </div>
+        </div>
+     </div>
+     </div>
+    <form class="search_bar" method="get" action="preresults.php">
+     <input type="text" placeholder="Search a gene" name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+
+    </form>
+</div>
+</div>
+
 <body style="background-color:#616283;">
 <br><br></br>
 
 <div class="reg_box">
       <br></br>
       <form id="form" name="form" method="POST" onsubmit="return validate(5)" action="registry_result.php" accept-charset="utf-8">
-      <div id="normal" style="text-align: center;">Fill the registry to access the dump:</div><br></br>
-
+      <div class="container">
+      <div id="normal" style="text-align: center;"><b>Fill the registry to access the dump:</b></div> 
       <br><label for="user">User:</label>
        <input class="field" id="user" name="user" type="text" required="required" size="25" /></br>
       <br><label for="mail">Mail:</label> <span id ="mnr" style="visibility:hidden; color:#FF0000;" > Mail Not Recognized </span></br>
@@ -95,6 +128,7 @@
       <br><span id ="message" style="visibility:hidden; color:#FF0000;" > Mail Already Registered </span></br>
       <input id="registry_btn" class="regbtn" type="submit" name="submit" value="Register" disabled/> 
      </br></br>
+      </div>
     </form>
 </div>
 </body>

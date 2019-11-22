@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="./css/style_text.css">
   <link rel="icon" href="./imagenes/proEColi_slogo_trans.png" type="image/icon type">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="./css/style_preresult3.css">
+  <link rel="stylesheet" href="./css/style_preresult5.css">
 </head>
 <body style="background-color:#616283;">
   <div id="header">

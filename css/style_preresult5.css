@@ -12,15 +12,16 @@ th, td {
 th {
   background-color: #162521; /* a2 */
   font-style: oblique;
+  color:white;
 }
 
-table.a {
+a {
 color: white;
 }
 tr:hover {background-color: #c0e0de;}
 
 #resultSearch{
-  background-color:#616283; 
+  background-color:#162521; 
   border-right: 20px solid #616283;
   width: 40%;
   height: 100%;

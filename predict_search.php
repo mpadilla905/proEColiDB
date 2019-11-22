@@ -59,7 +59,7 @@ if (isset($consultaSearch)) {
         while( $res_campos = mysqli_fetch_array($consultaSyn) ){
             //$val = $res_campos['gene_name'];
             $ref = "http://localhost/proEColiDB/results.php?search=".$res_campos['gene_name']."";
-            $resultado .= "<tr><td><a href=".$ref." >".$res_campos['object_synonym_name']."</a></p></tr></td>";
+            $resultado .= "<tr><td><p><a href=".$ref." >".$res_campos['object_synonym_name']."</a></p></tr></td>";
             //$resultado .= "<tr><td><p onclick=putOnInput(\"".$val."\")>".$res_campos['object_synonym_name']."</p></tr></td>";
         }
         $resultado .= "</table>";

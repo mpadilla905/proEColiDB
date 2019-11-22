@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./css/style_homecontent2.css">
   <link rel="icon" href="./imagenes/proEColi_slogo_trans.png" type="image/icon type">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="./css/style_preresult4.css">
+  <link rel="stylesheet" href="./css/style_preresult5.css">
 
   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 

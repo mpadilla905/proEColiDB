@@ -4,19 +4,19 @@ form.search_bar2 input[type=text] {
   font-size: 17px;
   border: 2px solid #162521;
   background: #f1f1f1;
-  width: 70%;
+  width: 90%;
   height: 45px;
 }
 
 form.search_bar2 {
  position: absolute;
- left:460px;
+ left:480px;
 }
 
 .search_button2 {
   position: relative;
-  left:140px;
-  width: 20%;
+  left:130px;
+  width: 15%;
   background: #5F9EA0;
   color: white;
   font-size: 17px;
@@ -29,7 +29,7 @@ form.search_bar2 {
   background: #5F9EA0;
 }
 
-form.search_bar::after {
+form.search_bar2::after {
   content: "";
   clear: both;
   display: table;
